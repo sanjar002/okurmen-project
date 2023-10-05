@@ -1,0 +1,219 @@
+.header__teacher {
+  height: 640px;
+  background: url("./image/teachers.png") fixed no-repeat;
+  background-size: cover;
+  background-position-y: 50px;
+}
+
+.wrapper__teacher h2 {
+  text-align: center;
+  left: 828px;
+  padding-top: 4rem;
+  font-family: "Montserrat" sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 39px;
+  color: #000000;
+}
+.wrapper__teacher p {
+  left: 544px;
+  padding-top: 0.6rem;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+}
+.wrapper__teacher {
+  margin-bottom: 70px;
+  text-align: center;
+}
+.teachers-photo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 4rem;
+  padding-bottom: 100px;
+}
+
+.section__mentor {
+  background: url(./image/coding.png);
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: multiply;
+  background-color: #000000c4;
+
+  
+}
+.mentor__block h2 {
+  color: white;
+  text-align: center;
+  font-family: "Montserrat" sans-serif;
+  padding-top: 4rem;
+  font-weight: 600;
+}
+
+
+
+.syky {
+  height: 327px;
+  width: 250px;
+}
+
+.gul {
+  border-radius: 20px;
+  height: 320px;
+  width: 250px;
+}
+
+.ali{
+  border-radius: 20px;
+  height: 320px;
+  width: 250px;
+}
+
+.mentor__photo {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin: 50px;
+ 
+}
+
+.name-mentorv {
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  text-align: center;
+}
+
+
+
+
+/*//////////////////////// animation /////////////////////////// */
+
+.teacher-img {
+  position: relative;
+  width: 350px;
+  height: 600px;
+  object-fit: cover;
+}
+
+.teacher-img .face {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 10px;
+  
+  overflow: hidden;
+  transition: .5s;
+}
+
+.teacher-img .front {
+  transform: perspective(600px) rotateY(0deg);
+}
+
+.teacher-img .front .belek-img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;  
+  overflow: hidden;
+}
+
+.teacher-img .front .teachers-name {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 45px;
+  line-height: 45px;
+  color: #fff;
+  padding-bottom: 60px;
+  text-align: center;
+}
+
+
+          /*//////// Задняя чать animation ////////////*/
+
+.teacher-img .back {
+  transform: perspective(600px) rotateY(180deg);
+  background: rgb(3, 35, 54);
+  padding: 15px;
+  color: #f3f3f3;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  box-shadow: 0 5px 10px #000;
+}
+
+.teacher-img .back .link {
+  border-top: solid 1px #f3f3f3;
+  height: 50px;
+  line-height: 50px;
+}
+
+.teacher-img .back .link .beka-a {
+  color: #f3f3f3;
+}
+
+.teacher-img .back .teachers-name {
+  font-size: 30px;
+  margin-top: 20px;
+  letter-spacing: 2px;
+}
+
+.teacher-img .back .teachers-info {
+  letter-spacing: 1px;
+}
+
+.teacher-img:hover .front {
+  transform: perspective(600px) rotateY(180deg);
+}
+
+.teacher-img:hover .back {
+  transform: perspective(600px) rotateY(360deg);
+}
+
+
+
+
+
+
+
+
+/*//////////////////// media ////////////////////*/
+
+@media (max-width: 1200px) and (min-width: 308px) {
+  .header__teacher {
+      width: 1520px;
+    }
+    .wrapper__teacher {
+      margin-left: 20rem;
+    }
+    .teachers-photo {
+      width: 1500px;
+    }
+    .section__mentor {
+      width: 1520px;
+    }
+}
+
+
+
+@media (max-width: 1054px) and (min-width: 308px) {
+  .wrapper__teacher {
+    margin-left: 30rem;
+  }
+}
+
+
+@media (max-width: 912px) and (min-width: 308px) {
+  .wrapper__teacher {
+    width: 700px;
+    /* margin-left: 40rem; */
+  }
+}

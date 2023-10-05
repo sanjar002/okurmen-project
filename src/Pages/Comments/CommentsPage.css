@@ -1,0 +1,134 @@
+.header-comments {
+    background: url('./images/men.png') fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: center;
+    background-blend-mode:multiply ;
+    background-color:#000000c4 ;
+    height: 600px;
+}
+
+.wrapper-comments {
+    padding-top: 70px;
+}
+
+.wrapper-comments h2{
+    text-align: center;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 59px;
+    padding-top: 7rem;
+    color: #FFFFFF;
+}
+
+.wrapper-comments p{
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 29px;
+    text-align: center;
+    padding-top: 1rem;
+    color: #ffffff;
+    opacity: 0.72;
+    text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.35);
+}
+.comments-vidio {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    gap: 50px;
+}
+
+/* the end  header-Comments */
+
+
+
+
+
+
+
+/* start cards comments */
+
+
+
+.comments h2{
+    color: #000;
+     text-align: center;
+}
+.comments p {
+    text-align: center;
+}
+
+.boxes-comments{
+    background-color: rgb(155, 143, 143);
+    width: 400px;
+    height: 200px;
+    border-radius: 20px;
+}
+.otzyv{
+    display: flex;
+    gap: 30px;
+    margin-top: 4rem;
+}
+.ellipse img{
+    padding:15px;
+    width: 87px;
+    height:87px;
+}
+.user-icon{
+width: 37px;
+height: 36px;
+margin-left: 1.5rem;
+margin-top:-4rem ;
+}
+
+.btn-comments .btn-oy{   
+width: 348px;
+height: 62px;
+border: none;
+border-radius: 30px;
+background: #cbccc8;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.btn-comments {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.btn-comments .btn-oy:hover{
+        cursor: pointer;
+        border: none;
+}
+
+.nurdana{
+    height: 300px;
+    width: 100px;
+}
+
+.video-div {
+    display: flex;
+    gap: 30px;
+    /* width: 1300px; */
+}
+
+.nurdana {
+    border-radius: 20px;
+}
+
+
+/* //////////////////// media /////////////////////// */
+
+
+@media (max-width: 1200px) and (min-width: 308px) {
+    .header-comments {
+        width: 1519px;
+    }
+    .section-text {
+        width: 1450px;
+    }
+}

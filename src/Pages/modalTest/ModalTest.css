@@ -1,0 +1,58 @@
+.wrapper-modalTest {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #14141f9c;
+    z-index: 444444;
+}
+
+.single-modalTest {
+    position: absolute;
+    top: 5px;
+    left: 50%;
+  
+    width: 500px;
+    height: 400px;
+    transform: translate(-50%, 50%);
+    background: #cacaca;
+    /* background: #cacaca; */
+    border-radius: 30px;
+    /* padding: 30px; */
+    z-index: 555555;
+  }
+
+  .test-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    color: #000;
+  }
+
+.prob {
+  margin-top: 30px;
+  margin-left: 100px;
+  background: white;
+  width: 300px;
+  height: 2px;
+}
+
+.p-modalTest {
+  font-family: 'Monserrat' sans-serif;
+  margin-top: 50px;
+  font-weight: 600;
+  font-size: 15px;
+  color: #000;
+}
+
+.btn-ok {
+  cursor: pointer;
+  margin-top: 50px;
+  color: white;
+  background: black;
+  border-radius: 50%;
+  width: 60px;
+  height: 40px;
+}

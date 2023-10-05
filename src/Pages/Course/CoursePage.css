@@ -1,0 +1,570 @@
+  .header__course {
+  height: 600px;
+  background: url(./images//Logocourse.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: center;
+  background-blend-mode: multiply;
+  background-color: #3c3c3cc1;
+}
+
+.wrapper-course h1 {
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 48px;
+  /* width: 1024px/; */
+  color: #fff;
+  text-align: center;
+  padding-top: 220px;
+}
+.wrapper-course-p {
+  font-family: "Montserrat" sans-serif;
+  /* font-style: normal; */
+  font-weight: 400;
+  font-size: 24px;
+  /* width: 805px; */
+  color: #fff;
+  padding-top: 20px;
+  text-align: center;
+}
+/* .course-content {
+  width: 700px;
+} */
+
+.section-course {
+  padding-top: 60px;
+}
+
+.logo-section {
+  font-family: "Montserrat" sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  padding-bottom: 15px;
+}
+
+.block-syky {
+  display: flex;
+  justify-content: end;
+  margin-bottom: 200px;
+  margin-top: 60px;
+}
+
+.course-block {
+  background: url(./images/html.png);
+  background-repeat: no-repeat;
+  width: 679px;
+  height: 540px;
+margin-top: 250px;
+}
+.yellow-block {
+  background: url(./images/Rectangle.png);
+  background-repeat: no-repeat;
+  border-radius: 12px;
+  width: 836px;
+  height: 786px;
+  margin-left: -155px;
+  top: 260px;
+}
+
+/* //////////////// 2Block ////////////////// */
+.course--block {
+  background: url(./images/fight.png);
+  background-repeat: no-repeat;
+  height: 540px;
+  margin-top: 140px;
+  margin-left: 150px;
+}
+
+.purple-block {
+  background: url(./images/blue2.png);
+  background-repeat: no-repeat;
+  width: 863.36px;
+  height: 789px;
+  border-radius: 12px;
+  margin-right: -150px;
+  transform: rotate(360deg);
+}
+
+/* ///////////////////// BLOCK /////////////////////// */
+
+.block {
+  display: flex;
+  flex-direction: row;
+  /* gap: 100px; */
+}
+
+.block-flutter {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  /* gap: 20px; */
+}
+
+.flutter {
+  height: 70px;
+}
+
+.flutter-text {
+  font-size: 17px;
+  margin-left: 18px;
+  line-height: 20px;
+}
+
+.uxui-block {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  margin-left: 120px;
+}
+
+.uxui {
+  height: 70px;
+}
+
+.ux-ui_text {
+  font-size: 17px;
+}
+
+/* ///////////////////// section-format ///////////////////// */
+
+.section-format {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.format-logo {
+  font-family: "Montserrat" sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  text-align: center;
+}
+
+.images-reiting {
+  margin-top: -10rem;
+  margin-left: -9rem;
+  background: url(./images/Какстроенообучение.png) no-repeat;
+  height: 750px;
+}
+
+.yellow-content {
+  font-family: "Roboto" sans-serif;
+  color: #fff;
+  font-size: 30px;
+  font-weight: 147.89;
+  margin-top: -750px;
+  text-align: center;
+}
+
+.content-purple {
+  font-family: "Roboto" sans-serif;
+  color: #fff;
+  font-size: 30px;
+  font-weight: 147.89;
+  margin-top: -640px;
+  text-align: center;
+}
+
+/* ////////////////////// language Pages /////////////////////// */
+
+.html-css {
+  display: flex;
+  flex-direction: row;
+  margin-left: 36px;
+  margin-top: 42px;
+}
+
+.html {
+  width: 40.51px;
+  height: 41.84px;
+}
+
+.css {
+  width: 40.51px;
+  height: 41.84px;
+  margin-left: 24px;
+}
+
+.html-css-content {
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: -10px;
+  margin-left: 46px;
+  color: #fff;
+}
+
+.text-html-css {
+  /* font-weight: 589.44; */
+  width: 589.44px;
+  margin-top: 30px;
+  margin-left: 37px;
+  color: #fff;
+}
+
+.calendar {
+  display: flex;
+  flex-direction: row;
+  margin-top: 60px;
+  margin-left: 180px;
+  background: #fff;
+  width: 195px;
+  height: 47px;
+  border-bottom-right-radius: 15px;
+}
+
+.calen-images {
+  width: 45px;
+  height: 45px;
+}
+
+.srok {
+  font-family: "Roboto" sans-serif;
+  font-weight: 500;
+  text-align: center;
+}
+
+/* ///////////////////// js Pages ///////////////////////// */
+
+.js {
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+}
+
+.js-images {
+  width: 39.54px;
+  height: 40.84px;
+  margin-top: 35px;
+  margin-left: 40px;
+}
+
+.js-content {
+  margin-left: 46px;
+  margin-top: 40px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.text-js {
+  margin-left: 40px;
+  margin-top: 20px;
+  color: #fff;
+  width: 559.37px;
+}
+
+/* /////////////////////// REACT pages ///////////////////////////// */
+
+.react {
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+  margin-left: 40px;
+}
+
+.images-react {
+  width: 52.08px;
+  height: 48.81px;
+}
+
+.react-centent {
+  margin-top: 10px;
+  margin-left: 46px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.text-react {
+  margin-top: 20px;
+  margin-left: 40px;
+  width: 586.92px;
+  color: #fff;
+}
+
+/* /////////////////////// BACKEND ///////////////////////// */
+
+.python {
+  display: flex;
+  flex-direction: row;
+  margin-top: 36px;
+  margin-left: 140px;
+}
+
+.images-python {
+  width: 51px;
+  height: 50px;
+}
+
+.puthon-content {
+  margin-left: 39px;
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.text-python {
+  width: 546.57px;
+  margin-left: 140px;
+  margin-top: 20px;
+  color: #fff;
+}
+
+.celendar-back {
+  margin-left: 300px;
+}
+
+
+
+/* /////////////////////// DGANGO pages ///////////////////////////// */
+
+.django {
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+  margin-left: 140px;
+}
+
+.django-images {
+  width: 111px;
+  height: 50px;
+}
+
+.dgango-content {
+  margin-left: 39px;
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.text-django {
+  width: 600.69px;
+  margin-left: 140px;
+  margin-top: 20px;
+  color: #fff;
+}
+
+.flutter {
+  border-radius: 50%;
+}
+
+
+@media (max-width: 1200px) and (min-width: 308px) {
+  .header__course {
+    width: 1520px;
+  }
+  .section-coursepages {
+    width: 1520px;
+  }
+  .section-format {
+    /* width: 1420px; */
+  }
+  .video-div {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 1190px) and (min-width: 308px) {
+  .section-course h2 {
+    text-align: center;
+  }
+  .section-course p {
+    text-align: center;
+    margin-top: 5px;
+  }
+  .block-syky {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4rem;
+  }
+  .purple-block {
+    position: relative;
+    left: -10rem;
+  }
+  .yellow-block {
+    margin-left: -2 0rem;
+  }
+  .yellow-content {
+    margin-left: -18rem;
+  }
+  .block {
+    align-items: center;
+    width: 1050px;
+  }
+  .header__course {
+    width: 1520px;
+  }
+  .course-content {
+    padding-left: 10rem;
+    text-align: center;
+  }
+  .block {
+    padding-left: 150px;
+  }
+}
+
+@media (max-width: 1101px) and (min-width: 308px) {
+
+  .yellow-block {
+    display: block;
+    margin-left: -10rem;
+  }
+  .images-reiting {
+    position: relative;
+    left: 1.7rem;
+    width: 1000px;
+  }
+  .header__course {
+    width: 1520px;
+    padding: 20px;
+  }
+  .uxui-block {
+    margin-left: -3px;
+  }
+  .course-content {
+    padding-left: 1rem;
+    text-align: center;
+   
+  }
+}
+
+
+@media (max-width: 1060px) and (min-width: 308px) {
+  .course-content {
+    padding-left: 4rem;
+    text-align: center;
+  }
+}
+
+@media (max-width: 1000px) and (min-width: 308px) {
+    .block-syky {
+      margin-left: 21rem;
+    }
+}
+
+@media (max-width: 970px) and (min-width: 308px) {
+  .yellow-block {
+    display: block;
+  }
+  .images-reiting {
+    position: relative;
+    left: 2;
+    width: 1000px;
+  }
+  .header__course {
+    width: 1520px;
+    padding: 20px;
+  }
+  .uxui-block {
+    margin-left: -2px;
+  }
+  .block {
+    margin-left: -2rem;
+  }
+}
+
+@media (max-width: 925px) and (min-width: 308px) {
+  .yellow-block {
+    display: block;
+  }
+}
+
+@media (max-width: 860px) and (min-width: 308px) {
+  .format-logo {
+    margin-left: 10rem;
+  }
+  .images-reiting {
+    width: 600px;
+  }
+}
+
+@media (max-width: 895px) and (min-width: 308px) {
+    .section-course {
+      padding-left: 20px;
+    }
+}
+
+@media (max-width:815px) and (min-width:308px) {
+  .wrapper-course h1{
+    font-size:2.7rem ;
+  }
+  .wrapper-course p {
+    width: 1100px;
+    margin-left: 1.4rem;
+  }
+  .block {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-left: -1rem;
+    gap: 50px;
+    height: 200px;
+  }
+  .flutter-text {
+    height: 130px;
+    margin-left: 50px;
+    margin-top: 25px;
+    width: 700px;
+  }
+  .block-flutter {
+    margin-left: -50px;
+  }
+  .uxui-block {
+    margin-left: -10px;
+  }
+  .uxui-block p {
+    margin-top: 20px;
+  }
+  .wrapper-format  {
+    width: 800px;
+    margin-left: -6rem;
+
+  }
+
+}
+
+@media (max-width: 805px) and (min-width: 308px) {
+  .header__course {
+    width: 1520px;
+  }
+  .section-course {
+    text-align: center;
+  }
+  .block {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .uxui-block {
+    margin-bottom: 3rem;
+    width: 500px;
+  }
+  .block-flutter {
+    width: 500px;
+  }
+ 
+}
+
+@media (max-width: 755px) and (min-width: 308px) {
+  .block-syky {
+    margin-left: 55rem;
+  }
+    
+  .header__course{
+    width: 1520px;
+  }
+}
+
+
+@media (max-width: 750px) and (min-width: 308px) {
+  .header__course {
+    width: 1520px;
+  }
+  .yellow-block {
+   margin-right: 12rem;
+  }
+  .purple-block{
+    margin-right: 2rem;
+  }
+}

@@ -1,0 +1,266 @@
+.footer {
+  padding-top: 60px;
+  background: whitesmoke;
+  margin-top: 3rem;
+}
+
+.footer-logo {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  margin-left: 100px;
+}
+
+.maps-images {
+  padding-top: 36px;
+}
+
+/* pages right */
+
+.obshiiy-footer {
+  display: flex;
+  flex-direction: row;
+  gap: 200px;
+  height: 550px;
+}
+
+.tire {
+  margin-top: 170px;
+  width: 4px;
+  height: 300px;
+  background: #ffffff;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+  border-radius: 11px;
+}
+
+.obshiiy-footer .right{
+  margin-top: 12rem;
+  margin-left: -4rem;
+
+}
+
+.phone {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 30px;
+}
+
+.phone span {
+  padding-left: 30px;
+  cursor: pointer;
+}
+
+.instagram {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 30px;
+}
+
+.instagram span {
+  padding-left: 30px;
+  cursor: pointer;
+}
+
+.email {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 30px;
+}
+
+.email span {
+  padding-left: 30px;
+  cursor: pointer;
+}
+
+.facebook {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 30px;
+}
+
+.facebook span {
+  padding-left: 30px;
+  cursor: pointer;
+}
+
+.adress {
+  display: flex;
+  flex-direction: row;
+}
+
+.adress span {
+  padding-left: 30px;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+.footer-wrapper {
+  padding-top: 80px;
+}
+
+
+
+/* .stars_studi0 {
+   margin-right: 100px;
+} */
+
+/* ============== media ================== */
+
+/* @media (max-width: 1190px) and (min-width: 308px) {
+  .footer {
+      width: 1200px;
+  }
+  .obshiiy-footer {
+    padding: 4rem 4%;
+  }
+
+  .footer-logo h2 {
+    padding: 2rem 4%;
+  }
+  .obshiiy-footer .right {
+    position: relative;
+    top: -3.7rem;
+    left: -12rem;
+  }
+}
+@media (max-width: 980px) and (min-width: 308px) {
+  .obshiiy-footer {
+    padding: 4rem 4%;
+  }
+
+  .footer-logo h2 {
+    padding: 2rem 4%;
+  }
+  .obshiiy-footer .right {
+    position: relative;
+    top: -3.7rem;
+    left: -13.8rem;
+  }
+}
+
+@media (max-width: 910px) and (min-width: 308px) {
+  .obshiiy-footer {
+    padding: 2rem 4%;
+  }
+  .footer-logo h2 {
+    padding: 2rem 4%;
+  }
+  .obshiiy-footer .right {
+    position: relative;
+    top: -3.7rem;
+    left: -18rem;
+  }
+}
+@media (max-width:815px) and (min-width:308px) {
+  .footer {
+    width: 700px;
+    margin-left: 10rem;
+  
+  }
+  .obshiiy-footer {
+    display: flex;
+  }
+  .tire {
+    display: none;
+  }
+  .footer-wrapper h2 {
+    text-align: center;
+    margin-left: -20px;
+  }
+  .right {
+   display: flex;
+   flex-direction:column;
+   flex-wrap: wrap;
+   align-items: flex-end;
+  }
+}
+
+@media (max-width: 865px) and (min-width: 308px) {
+  .obshiiy-footer {
+    padding: 3rem 4%;
+  }
+  .footer-logo h2 {
+    padding: 3rem 4%;
+  }
+  .obshiiy-footer .right {
+    position: relative;
+    top: -3.7rem;
+    left: -25rem;
+  }
+}
+@media (max-width: 750px) and (min-width: 308px) {
+  .obshiiy-footer .right {
+    position: relative;
+    top: -3.7rem;
+    left: -27rem;
+  }
+  
+  @media (max-width:710px) and (min-width:308px) {
+    .footer {
+      width: 720px;
+    }
+    .footer-wrapper #map {
+      width: 300px;
+    }
+    .obshiiy-footer {
+      margin-left: 70px;
+    }
+    .tire {
+      display:none;
+    }
+    .right {
+        position: relative;
+        margin-left: 15.6rem;
+        margin-top: -20rem;
+    }
+    
+.obshiiy-footer .right{
+  margin-top: 45rem;
+  margin-left: -5rem;
+
+}
+
+  }
+
+  @media(max-width:350px) and(min-width:308) {
+    .footer {
+      width: 500px;
+    }
+  }
+} */
+
+/* @media (max-width: 1190px) and (min-width: 308px) {
+  .footer {
+    background: whitesmoke;
+    width: 1357px;
+  }
+} */
+
+
+@media (max-width: 1110px) and (min-width: 308px) {
+  .footer {
+    width: 1110px;
+  }
+    .tire {
+      display:none;
+    }
+}
+
+@media (max-width: 1190px) and (min-width: 308px) {
+  .footer {
+    width: 1520px;
+  }
+}
+
+@media (max-width: 750px) and (min-width: 308px) {
+  .footer {
+    width: 1520px;
+  }
+}
+
+
+/* developer Sanjar and Syimyk */
