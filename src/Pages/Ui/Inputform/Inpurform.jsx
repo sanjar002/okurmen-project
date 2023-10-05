@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import './inputForm.css' 
 import { withTranslation } from 'react-i18next';
+import "./InputForm.css" 
 
 class Inputform extends Component {
   
