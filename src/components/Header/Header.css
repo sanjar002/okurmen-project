@@ -54,7 +54,6 @@ ul a:hover:after {
   height: 30px;
 }
 
-/* burger menu */
 .open {
   display: flex !important;
 }
@@ -169,7 +168,7 @@ ul a:hover:after {
 
 /* =============== media ================= */
 
-@media (max-width: 1199px) and (min-width: 308px) {
+/* @media (max-width: 1199px) and (min-width: 308px) {
   .header nav {
     font-size: 50%;
     margin-left: -7em;
@@ -221,5 +220,14 @@ ul a:hover:after {
   .logo img {
     left: 2rem;
     width: 100px;
+  }
+} */
+
+/* -----------------------  media ----------------------- */
+
+
+@media (max-width: 414px) {
+  ul {
+    color: red;
   }
 }

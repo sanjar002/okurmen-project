@@ -1,12 +1,15 @@
 .home{
-    /* width: 100%; */
-    height: 55vw;
-    background: url('https://static1.makeuseofimages.com/wordpress/wp-content/uploads/2017/06/free-online-programming-courses.jpg') fixed;
+    /* width: 1200px; */
+    height: 100vh;
+    background: url('./image/msg1149855044-20680.jpg') ;
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size: contain;
+    /* background-size: center; */
     background-blend-mode: multiply;
-    background-color: #29252585;
+    /* background-color: #29252585; */
 }
+
+/* 1003 */
 
 .block_home{
     display: block;
@@ -477,7 +480,7 @@ svg text {
 /* ============ media ==================== */
 
 
- @media (max-width:1200px) and (min-width:308px) {
+ /* @media (max-width:1200px) and (min-width:308px) {
    .home {
     padding: 4rem 4%;
   }
@@ -946,5 +949,82 @@ svg text {
     justify-content: center;
   }
 } 
+ */
+
+
+@media (max-width: 1090px) {
+  .home_title h1 {
+    font-size: 40px;
+    margin-top: -4rem;
+    text-align: center;
+  }
+}
+
+@media (max-width: 1052px) {
+  
+ }
+
+@media (max-width: 1049px) {
+ .subtitle h2 {
+    margin-left: -10px;
+ }
+}
+@media (max-width: 1039px) {
+ .subtitle h2 {
+    margin-left: -20px;
+ }
+}
+@media (max-width: 1029px) {
+ .subtitle h2 {
+    margin-left: -30px;
+ }
+}
+@media (max-width: 1019px) {
+ .subtitle h2 {
+    margin-left: -40px;
+ }
+}
+@media (max-width: 1009px) {
+  .h1-logogo {
+    margin-left: -10px;
+  }
+ .subtitle h2 {
+    margin-left: -50px;
+ }
+}
+
+
+@media (max-width: 1002px) {
+  .home {
+    width: 1003px;
+  }
+  .section {
+    width: 1003px;
+  }
+  .master-section {
+    width: 1003px;
+  }
+
+}
+@media (max-width: 999px) {
+  .h1-logogo {
+    margin-left: -20px;
+  }
+ .subtitle h2 {
+    margin-left: -60px;
+ }
+}
+
+@media (max-width: 989px) {
+  .h1-logogo {
+    margin-left: -30px;
+  }
+ .subtitle h2 {
+    margin-left: -70px;
+ }
+}
+
+
+
 
 

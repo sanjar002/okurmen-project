@@ -29,7 +29,7 @@ const Header = () => {
         <div className="block_header">
           <div className="logo">
             <Link to="/">
-              <img src={Logo} alt="" />
+              <img className="img-logo-header" src={Logo} alt="" />
             </Link>
           </div>
           <nav>

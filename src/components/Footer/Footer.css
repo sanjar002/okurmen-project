@@ -1,6 +1,7 @@
 .footer {
   padding-top: 60px;
   background: whitesmoke;
+  /* background: rgb(113, 125, 129); */
   margin-top: 3rem;
 }
 
@@ -241,7 +242,7 @@ a {
 } */
 
 
-@media (max-width: 1110px) and (min-width: 308px) {
+/* @media (max-width: 1110px) and (min-width: 308px) {
   .footer {
     width: 1110px;
   }
@@ -261,6 +262,14 @@ a {
     width: 1520px;
   }
 }
+ */
+
+/* ----------------  media  -------------- */
+
+@media (max-width: 1090px) {
+  .tire {
+    margin-left: -5rem;
+  }
+}
 
 
-/* developer Sanjar and Syimyk */
