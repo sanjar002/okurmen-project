@@ -72,13 +72,13 @@ const Footer = () => {
         </div>
       </div>
 
-      <div class="footer">
+      {/* <div class="footer">
         <div class="footer-text">
           <p className="syimyk-and-sanjar">
             &copy; Copyright 2023 All Rights Reserved
           </p>
         </div>
-      </div>
+      </div> */}
     </footer>
   );
 };

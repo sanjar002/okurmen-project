@@ -288,3 +288,21 @@ a {
 }
 
 
+
+@media (max-width: 391px) {
+  .tire {
+    display: none;
+  }
+  .footer {
+    width: 390px;
+    height: 1100px;
+  }
+  .obshiiy-footer {
+    display: flex;
+    gap: 1px;
+    flex-wrap: wrap;
+  }
+  .right {
+    padding-left: 10rem;
+  }
+}
