@@ -308,12 +308,51 @@ a {
   }
 }
 
+
+
+@media (max-width: 542px) {
+  .footer {
+    width: 541px;
+  } 
+}
+
+@media (max-width: 440px) {
+  .footer {
+    width: 440px;
+  }
+  .right {
+    padding-left: 9rem;
+  }
+  .footer-wrapper {
+    margin-left: -5rem;
+  }
+  .mapFooter {
+    width: 50px;
+  }
+}
+
+
+@media (max-width: 405px) {
+  .footer {
+    width: 404px;
+  }
+ }
+
+@media (max-width: 393px) {
+  .footer {
+    width: 392px;
+  }
+ }
+
 @media (max-width: 390px) {
+  .footer-logo {
+    margin-left: 75px;
+  }
   .tire {
     display: none;
   }
   .footer {
-    width: 390px;
+    width: 389px;
     height: 1100px;
   }
   .obshiiy-footer {
@@ -322,6 +361,30 @@ a {
     flex-wrap: wrap;
   }
   .right {
-    padding-left: 10rem;
+    padding-left: 8rem;
   }
+}
+
+
+
+@media (max-width: 373px) {
+  .footer {
+    width: 372px;
+  }
+  .right {
+    padding-left: 6.7rem;
+  }
+}
+
+
+
+
+@media (max-width: 340px) {
+  .footer {
+    width: 339px;
+  }
+  .right {
+    padding-left: 5.8rem;
+  }
+
 }

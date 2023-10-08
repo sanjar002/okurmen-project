@@ -1029,7 +1029,7 @@ svg text {
     display: table-footer-group;
   }
   .post-content {
-    font-size: 23px;
+    font-size: 20px;
   } 
   .text-okurmen {
     font-size: 100px;
@@ -1063,11 +1063,45 @@ svg text {
 }
 
 
-@media (max-width: 392px) {
+@media (max-width: 542px) {
+  .home {
+    height: 606px;
+  }
+  .block_home {
+    margin-top: -8rem;
+  }
+} 
+
+
+@media (max-width: 441px) {
+  .master-text {
+    font-size: 27px;
+  }
+}
+
+
+
+@media (max-width: 440px) {
+  .home {
+    height: 650px;
+  }
+  .block_home {
+    margin-top: -8rem;
+  }
+}
+
+
+@media (max-width: 405px) {
+  .master-text {
+    font-size: 24.8px;
+  }
+}
+
+@media (max-width: 393px) {
   .home {
     background-blend-mode: multiply;
     background-color: #29252585;
-    height: 545px;
+    height: 648px;
   }
   .home_title h1 {
     font-size: 40px;
@@ -1098,9 +1132,31 @@ svg text {
 .master-section {
   height: 500px;
 }
- 
 }
 
+@media (max-width: 373px) {
+  .home {
+    height: 700px;
+  }
+  .block_home {
+    margin-top: -40px;
+  }
+  .master-text {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 355px) {
+  .post-content {
+    font-size: 17.7px;
+  } 
+}
+
+@media (max-width: 351px) {
+  .master-text {
+    font-size: 19px;
+  }
+}
 
 
 
