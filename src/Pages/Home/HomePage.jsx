@@ -121,7 +121,7 @@ const HomePage = () => {
         <div className="big-image">
           <div className="image-big">
             <svg viewBox="0 0 1350 600">
-              <text x="50%" y="50%" fill="transparent" text-anchor="middle">
+              <text className="text-okurmen" x="50%" y="50%" fill="transparent" text-anchor="middle">
                 Окурмэн окуу борбору
               </text>
             </svg>
@@ -356,7 +356,6 @@ const HomePage = () => {
               </div>
               <div className="inputForm">
                 <Inputform />
-                <h2>ajajaj</h2>
               </div>
             </div>
           </div>

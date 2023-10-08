@@ -1010,7 +1010,60 @@ svg text {
 } */
 
 
-@media (max-width: 399px) {
+
+@media (max-width: 601px) {
+  .home {
+    background-blend-mode: multiply;
+    background-color: #29252585;
+    height: 570px;
+  }
+  .home_title h1 {
+    display: table-footer-group;
+    width: 200rem;
+    font-size: 40px;
+    width: 200px;
+    margin-top: -10rem;
+    margin-left: -5rem;
+  }
+  .subtitle h2 {
+    display: table-footer-group;
+  }
+  .post-content {
+    font-size: 23px;
+  } 
+  .text-okurmen {
+    font-size: 100px;
+  }
+  .wrapper_partnery {
+    display: flex;
+    gap: 190px;
+   }
+   @keyframes images-ani {
+    0% {
+      transform: translateX(500%);
+    }
+    100% {
+      transform: translateX(-1250%);
+    }
+  }
+  .accardion-section {
+    width: 600px;
+  }
+  /* .accardion-boxes { 
+    display: flex;
+    gap: 1px;
+    flex-wrap: wrap;
+   } */
+  .master-phka {
+    display: none;
+  }
+  .master-section {
+    height: 440px;
+  }
+}
+
+
+@media (max-width: 392px) {
   .home {
     background-blend-mode: multiply;
     background-color: #29252585;

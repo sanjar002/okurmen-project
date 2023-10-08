@@ -287,7 +287,26 @@ a {
   }
 }
 
-
+@media (max-width: 600px) {
+  .footer-wrapper {
+    padding-left: 60px;
+  }
+  .tire {
+    display: none;
+  }
+  .footer {
+    width: 600px;
+    height: 1100px;
+  }
+  .obshiiy-footer {
+    display: flex;
+    gap: 1px;
+    flex-wrap: wrap;
+  }
+  .right {
+    padding-left: 15rem;
+  }
+}
 
 @media (max-width: 390px) {
   .tire {
