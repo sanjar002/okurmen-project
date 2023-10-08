@@ -1,5 +1,7 @@
 .header {
-  background: #fff;
+  /* background: #fff; */
+  background: rgb(92, 135, 149);
+
   position: fixed;
   width: 100%;
   z-index: 10000;
@@ -226,8 +228,14 @@ ul a:hover:after {
 /* -----------------------  media ----------------------- */
 
 
-@media (max-width: 414px) {
+/* @media (max-width: 414px) {
   ul {
     color: red;
   }
-}
+} */
+
+/* @media (max-width: 1000px) {
+  .header {
+    width: 999px;
+  }
+} */

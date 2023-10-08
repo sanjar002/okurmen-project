@@ -356,8 +356,7 @@ const HomePage = () => {
               </div>
               <div className="inputForm">
                 <Inputform />
-                <div>fhuhfuhfur</div>
-                <div>fhuhfuhfur</div>
+                <h2>ajajaj</h2>
               </div>
             </div>
           </div>

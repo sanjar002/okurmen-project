@@ -1,9 +1,9 @@
 .home{
-    /* width: 1200px; */
-    height: 100vh;
+    width: 100%;
+    /* height: 100vh; */
     background: url('./image/msg1149855044-20680.jpg') ;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     /* background-size: center; */
     background-blend-mode: multiply;
     /* background-color: #29252585; */
@@ -960,9 +960,7 @@ svg text {
   }
 }
 
-@media (max-width: 1052px) {
-  
- }
+
 
 @media (max-width: 1049px) {
  .subtitle h2 {
@@ -1004,8 +1002,31 @@ svg text {
   .master-section {
     width: 1003px;
   }
-
 }
+
+
+@media (max-width: 1000px) {
+  .home {
+    width: 1000px;
+  }
+  .cards {
+    width: 1000px;
+  }
+  .section {
+    width: 1000px;
+
+  }
+  .partnery {
+    width: 1000px;
+  }
+  .accardion-section{
+    width: 1000px;
+  }
+  .master-section {
+    width: 1000px;
+  }
+}
+
 @media (max-width: 999px) {
   .h1-logogo {
     margin-left: -20px;
@@ -1025,6 +1046,10 @@ svg text {
 }
 
 
-
+@media (max-width: 939px) {
+  .post-content {
+    /* font-size: 100rem; */
+  }
+}
 
 

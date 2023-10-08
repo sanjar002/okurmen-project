@@ -1,7 +1,7 @@
 .footer {
   padding-top: 60px;
-  background: whitesmoke;
-  /* background: rgb(113, 125, 129); */
+  /* background: whitesmoke; */
+  background: rgb(92, 135, 149);
   margin-top: 3rem;
 }
 
@@ -269,6 +269,21 @@ a {
 @media (max-width: 1090px) {
   .tire {
     margin-left: -5rem;
+  }
+}
+
+@media (max-width: 1048px) {
+  .tire {
+    margin-left: -7rem;
+  }
+}
+
+@media (max-width: 1000px) {
+  .tire {
+    margin-left: -10rem;
+  }
+  .footer {
+    width: 1000px;
   }
 }
 

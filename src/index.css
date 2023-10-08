@@ -22,7 +22,7 @@ ul{
     list-style: none;
 }
 
-@media (max-width: 1200px) and (min-width: 300px) {
+/* @media (max-width: 1200px) and (min-width: 300px) {
     .header {
         padding: 5px;
     }
@@ -38,4 +38,4 @@ ul{
     .footer {
         padding: 5px;
     }
-}
+} */
