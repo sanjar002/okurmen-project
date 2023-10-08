@@ -1010,7 +1010,7 @@ svg text {
 } */
 
 
-@media (max-width: 390px) {
+@media (max-width: 399px) {
   .home {
     background-blend-mode: multiply;
     background-color: #29252585;
