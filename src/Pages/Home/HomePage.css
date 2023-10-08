@@ -991,7 +991,7 @@ svg text {
  }
 }
 
-
+/* 
 @media (max-width: 1002px) {
   .home {
     width: 1003px;
@@ -1002,9 +1002,9 @@ svg text {
   .master-section {
     width: 1003px;
   }
-}
+} */
 
-
+/* 
 @media (max-width: 1000px) {
   .home {
     width: 1000px;
@@ -1025,7 +1025,7 @@ svg text {
   .master-section {
     width: 1000px;
   }
-}
+} */
 
 @media (max-width: 999px) {
   .h1-logogo {
@@ -1046,10 +1046,5 @@ svg text {
 }
 
 
-@media (max-width: 939px) {
-  .post-content {
-    /* font-size: 100rem; */
-  }
-}
 
 
