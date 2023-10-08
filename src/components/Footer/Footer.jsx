@@ -35,7 +35,7 @@ const Footer = () => {
                 style={{ fontSize: "30px", cursor: "pointer" }}
               />
               <a href="tel:+996704300742">
-                <span>+996 (704) 300 742</span>{" "}
+                <span>+996 (704) 300 742</span>
               </a>
             </div>
 
