@@ -49,14 +49,123 @@
     color: #fff;
 }
 
-@media (max-width: 601px) {
+@media (max-width: 900px) {
     .form-control {
         margin-left: 99px;
     }
 }
+
+@media (max-width: 848px) {
+    .form-control {
+        margin-left: 37px;
+    }
+}
+
+@media (max-width: 791px) {
+    .form-control {
+        margin-left: 5px;
+    }
+  }
+
+
+  @media (max-width: 756px) {
+    .form-control {
+        margin-left: 18px;
+    }
+  }
+
+
+  @media (max-width: 706px) {
+    .p h4 {
+        display: none;
+    }
+    .form-control {
+        margin-top: -40px;
+        margin-left: 6rem;
+    }
+    .form {
+        width: 400px;
+    }
+    .submit {
+        width: 400px;
+    }
+  }
+
+  
+@media (max-width: 670px) {
+    .form-control {
+        margin-left: 4.7rem;
+    }
+}
+
+@media (max-width: 641px) {
+    .form-control {
+        margin-left: 3.8rem;
+    }
+}
+
+@media (max-width: 611px) {
+    .form-control {
+        margin-left: 2.7rem;
+    }
+}
+
+
+@media (max-width: 601px) {
+    .form-control {
+        margin-left: 34px;
+    }
+}
+
+@media (max-width: 534px) {
+    .form-control {
+        margin-left: 9px;
+    }
+}
+
+@media (max-width: 510px) {
+    .form-control {
+        margin-left: -8px;
+    }
+}
+
+@media (max-width: 486px) {
+    .form-control {
+        margin-left: -18px;
+    }
+}
+
+@media (max-width: 479px) {
+    .form-control {
+        margin-left: 23px;
+    }
+    .form {
+        width: 300px;
+    }
+    .submit {
+        width: 300px;
+    }
+}
+
+
+@media (max-width: 448px) {
+    .form-control {
+        margin-left: 10px;
+    }
+}
+
+
 @media (max-width: 441px) {
     .form-control {
         margin-left: 28px;
+    }
+}
+
+
+
+@media (max-width: 428px) {
+    .form-control {
+        margin-left: -5px;
     }
 }
 
@@ -67,23 +176,43 @@
     }
 }
 
+
+@media (max-width: 420px) {
+    .form-control {
+        margin-left: -10px;
+    }
+}
+
 @media (max-width: 405px) {
     .form-control {
-        margin-left: 6px;
+        margin-left: -10px;
     }
 }
 
 
 @media (max-width: 390px) {
     .form-control {
-        margin-left: 1px;
+        margin-left: -20px;
     }
 }
 
 @media (max-width: 373px) {
     .form-control {
-        margin-left: -13px;
+        margin-left: -24px;
     }
+}
+
+@media (max-width: 373px) {
+    .form-control {
+        margin-left: -8px;
+    }
+    .form {
+        width: 260px;
+    }
+    .submit {
+        width: 260px;
+    }
+
 }
 
 

@@ -1,6 +1,7 @@
 
 import React, { Component } from 'react'
 import { withTranslation } from 'react-i18next';
+import "./Time.css"
 
 class Time extends Component {
     constructor(props) {

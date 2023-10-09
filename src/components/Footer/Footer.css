@@ -1,8 +1,11 @@
 .footer {
+  width: 100%;
   padding-top: 60px;
   /* background: whitesmoke; */
   background: rgb(92, 135, 149);
-  margin-top: 3rem;
+  background-attachment: fixed;
+  background-size: cover;
+  /* margin-top: 3rem; */
 }
 
 .footer-logo {
@@ -278,12 +281,25 @@ a {
   }
 }
 
+@media (max-width: 1015px) {
+  .tire {
+   margin-left: -10rem;
+  }
+ }
+
 @media (max-width: 1000px) {
   .tire {
     margin-left: -10rem;
   }
   .footer {
-    width: 1000px;
+    width: 999px;
+  }
+}
+
+@media (max-width: 998px) {
+  .footer {
+    background-size: cover;
+    width: 997px;
   }
 }
 
