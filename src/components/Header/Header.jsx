@@ -73,14 +73,8 @@ const Header = () => {
                   <Link to="/about">{t("Окурмен")}</Link>
                   <Link to="/Comments">{t("Отзыв")}</Link>
                   <Link to="/Contact">Контакт</Link>
-                </div>
-                <div className="closeMenu burger">
-                  <AiOutlineClose onClick={() => setOpenBurger(false)} />
-                </div>
-              </div>
-            )}
 
-             {languages.map((btn) => {
+                  {languages.map((btn) => {
                 return (
                   <div className="btn-locales burger">
                     <Button className="btn-rus" onClick={() => changelang(btn)}>
@@ -89,6 +83,14 @@ const Header = () => {
                   </div>
                 );
               })}
+                </div>
+                <div className="closeMenu burger">
+                  <AiOutlineClose onClick={() => setOpenBurger(false)} />
+                </div>
+              </div>
+            )}
+
+           
           </nav>
         </div>
       </div>

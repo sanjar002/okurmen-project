@@ -70,8 +70,10 @@
   nav {
     display: block;
   }
-  .blockList {
+  .blockList a{
     display: none;
+    font-size: 30px;
+    
   }
   .burger {
     display: block;
@@ -79,19 +81,29 @@
     font-size: 33px;
   }
   .closeMenu {
-
+    position: absolute;
+    top: 2rem;
+    right: 1.7rem;
 }
+
+.overlay-burger {
+  margin-left: 5rem;
+  background: red;
+} 
+
 }
 
   .overlay-burger{
-    width: 100%;
+    width: 100vh;
     height: 100vh;
+    /* background: red; */
     position: absolute;
    backdrop-filter: blur(50%);
     z-index: 99999;
     top: 0;
     bottom: 0;
-    left: 0;
+    color: #fff;
+    left: -29rem;
     right: 0;
     display: flex;
     justify-content: center;
