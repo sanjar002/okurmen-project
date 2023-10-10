@@ -2,13 +2,14 @@
   /* background: #fff; */
   background: rgb(92, 135, 149);
 
-  position: fixed;
-  max-width: 1200px;
+  /* position: fixed; */
+  /* max-width: 1200px; */
   width: 100%;
-  z-index: 10000;
-  top: 0;
-  height: 75px;
+  /* z-index: 10000; */
+  /* top: 0; */
+  height: 80px;
 }
+
 
 .block-none {
   display: none;
@@ -29,7 +30,7 @@
 .blockList {
   display: flex;
   justify-content: space-between;
-  gap: 35px;
+  gap: 29px;
 }
 
 
@@ -74,7 +75,7 @@
   }
   .burger {
     display: block;
-    margin-left: -280px;
+    /* margin-left: -280px; */
     font-size: 33px;
   }
   .closeMenu {
@@ -82,21 +83,21 @@
 }
 }
 
-.overlay-burger {
-  width: 100%;
-  height: 100vh;
-  position: absolute;
-  backdrop-filter: blur(50%);
-  z-index: 99999;
-  /* top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0; */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 2rem;
-}
+  .overlay-burger{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+   backdrop-filter: blur(50%);
+    z-index: 99999;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
 
 
 /* 

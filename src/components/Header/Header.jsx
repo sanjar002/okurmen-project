@@ -5,7 +5,7 @@ import { Button } from "antd";
 import Logo from "./img/okurmen-logo 1.png";
 import "./Header.css";
 import { useState } from "react";
-// import WhatsApp from "../whatsApp/WhatsApp";
+import WhatsApp from "../whatsApp/WhatsApp";
 // import { GiHamburgerMenu } from "react-icons/gi";
 
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
@@ -36,7 +36,6 @@ const Header = () => {
             </Link>
           </div>
           <nav>
-            
              <div className="blockList">
              <Link to="/">{t("Башкы бет")}</Link>
               <Link to="/Course">{t("Курс")}</Link>

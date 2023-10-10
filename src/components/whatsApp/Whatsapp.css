@@ -1,22 +1,16 @@
-.whatsappIcon {
+/* .whatsappIcon {
   position: sticky;
   top: 720px;
   background-repeat: no-repeat;
   z-index: 1000;
-  /* color: white; */
-  /* bottom: 0; */
   display: flex;
   justify-content: end;
   align-items: end;
 }
 
 .bsIcon {
-  /* background-color: green; */
   color: #fff;
-  /* border-radius: 50%; */
   width: 70px;
-  /* height: 60px; */
-  /* margin-bottom: 4rem; */
   margin-right: 5rem;
   background-repeat: no-repeat;
 }
@@ -29,4 +23,4 @@
   width: 80px;
   margin-right: 2rem;
   background-repeat: no-repeat;
-}
+} */
