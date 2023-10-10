@@ -8,7 +8,10 @@ import { useState } from "react";
 // import WhatsApp from "../whatsApp/WhatsApp";
 // import { GiHamburgerMenu } from "react-icons/gi";
 
+import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
+
 const Header = () => {
+  const [openBurger, setOpenBurger] = React.useState(false);
   // const [open, setOpen] = React.useState(false);
   const { i18n } = useTranslation();
   const { t } = useTranslation();
@@ -33,8 +36,9 @@ const Header = () => {
             </Link>
           </div>
           <nav>
-            <ul>
-              <Link to="/">{t("Башкы бет")}</Link>
+            
+             <div className="blockList">
+             <Link to="/">{t("Башкы бет")}</Link>
               <Link to="/Course">{t("Курс")}</Link>
               <Link to="/Teache">{t("Мугалимдер")}</Link>
               <Link to="/about">{t("Окурмен")}</Link>
@@ -51,11 +55,41 @@ const Header = () => {
                   </div>
                 );
               })}
-            </ul>
+             </div>
+            
             {/* <div className={open && "burger"}>
               <GiHamburgerMenu onClick={() => activeBurger()} />
               heloo
             </div> */}
+
+            <div className="burger">
+              <AiOutlineMenu onClick={() => setOpenBurger(true)} />
+            </div>
+            {openBurger && (
+              <div className="overlay-burger">
+                <div className="nav-link burger">
+                  <Link to="/">{t("Башкы бет")}</Link>
+                  <Link to="/Course">{t("Курс")}</Link>
+                  <Link to="/Teache">{t("Мугалимдер")}</Link>
+                  <Link to="/about">{t("Окурмен")}</Link>
+                  <Link to="/Comments">{t("Отзыв")}</Link>
+                  <Link to="/Contact">Контакт</Link>
+                </div>
+                <div className="closeMenu burger">
+                  <AiOutlineClose onClick={() => setOpenBurger(false)} />
+                </div>
+              </div>
+            )}
+
+             {languages.map((btn) => {
+                return (
+                  <div className="btn-locales burger">
+                    <Button className="btn-rus" onClick={() => changelang(btn)}>
+                      {btn}
+                    </Button>
+                  </div>
+                );
+              })}
           </nav>
         </div>
       </div>

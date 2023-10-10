@@ -3,16 +3,17 @@
   background: rgb(92, 135, 149);
 
   position: fixed;
-  /* width: 100%; */
+  max-width: 1200px;
+  width: 100%;
   z-index: 10000;
   top: 0;
   height: 75px;
 }
 
-.block-none{
+.block-none {
   display: none;
 }
-.block{
+.block {
   display: block;
 }
 .logo img {
@@ -25,20 +26,17 @@
   padding-top: 23px;
   padding-bottom: 23px;
 }
-nav > ul {
+.blockList {
   display: flex;
   justify-content: space-between;
   gap: 35px;
 }
 
-ul a {
-  position: relative;
-}
 
-ul a::after {
+.blockList a::after {
   content: "";
   position: absolute;
-  background-color: #FA9801;
+  background-color: #fa9801;
   height: 3px;
   width: 0;
   left: 0;
@@ -46,10 +44,9 @@ ul a::after {
   transition: 0.3s;
 }
 
-ul a:hover:after {
+.blockList a:hover:after {
   width: 100%;
 }
-
 
 .btn-rus {
   width: 40px;
@@ -60,75 +57,46 @@ ul a:hover:after {
   display: flex !important;
 }
 
-
-/* .burger {
+.burger {
   display: none;
-  position: relative;
-  z-index: 50;
-  align-items: center;
-  justify-content: flex-end;
-  width: 30px;
-  height: 18px;
-
-}
-.burger span {
-  height: 2px;
-  width: 80%;
-  transform: scale(1);
-  background-color: #000;
 }
 
-.burger::before, .burger::after{
-  content: '';
-  position: absolute;
-  height: 2px;
-  width: 100%;
-  background-color: #000;
-  transition: all 0.3 ease 0s;
-}
-
-.burger::before{ top: 0; }
-.burger::after{ bottom: 0; }
-
-.burger.active span { transform: scale(0); }
-
-.burger.active::before{
-  top: 50%;
-  transform: rotate(-45deg) translate(0, 50%);
-}
-
-.burger.active::after{
-  bottom: 50%;
-  transform: rotate(45deg) translate(0, 50%);
-}
-
-
-@media (max-width: 900px) {
-  .burger { display: none; }
-
-  nav {
-    display: flex;
-    flex-direction: column;
-    position: fixed;
-    height: 100%;
+@media screen and (max-width: 700px) {
+  .header {
+    max-width: 1200px;
     width: 100%;
-    top: 0; bottom: 0; left: 0; right: 0;
-    z-index: 50;
-    overflow-y: auto;
-    padding: 50px 40px;
-    background-color: #cacaca;
-    animation: burgerAnimation 0.4s;
   }
-  nav ul {
-    flex-direction: column;
-    row-gap: 30px;
+  nav {
+    display: block;
   }
-} */
+  .blockList {
+    display: none;
+  }
+  .burger {
+    display: block;
+    margin-left: -280px;
+    font-size: 33px;
+  }
+  .closeMenu {
 
-/* @keyframes burgerAnimation {
-  from {opacity: 0}
-  to {opacity: 1}
-} */
+}
+}
+
+.overlay-burger {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  backdrop-filter: blur(50%);
+  z-index: 99999;
+  /* top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
 
 
 /* 
@@ -226,7 +194,6 @@ ul a:hover:after {
 } */
 
 /* -----------------------  media ----------------------- */
-
 
 /* @media (max-width: 414px) {
   ul {

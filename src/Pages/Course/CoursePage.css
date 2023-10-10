@@ -350,16 +350,13 @@ margin-top: 250px;
   border-radius: 50%;
 }
 
-
+/* 
 @media (max-width: 1200px) and (min-width: 308px) {
   .header__course {
     width: 1520px;
   }
   .section-coursepages {
     width: 1520px;
-  }
-  .section-format {
-    /* width: 1420px; */
   }
   .video-div {
     display: flex;
@@ -567,4 +564,8 @@ margin-top: 250px;
   .purple-block{
     margin-right: 2rem;
   }
-}
+} */
+
+
+
+

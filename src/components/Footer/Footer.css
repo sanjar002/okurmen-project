@@ -5,6 +5,7 @@
   background: rgb(92, 135, 149);
   background-attachment: fixed;
   background-size: cover;
+  background-position: center;
   /* margin-top: 3rem; */
 }
 
@@ -269,7 +270,7 @@ a {
 
 /* ----------------  media  -------------- */
 
-@media (max-width: 1090px) {
+/* @media (max-width: 1090px) {
   .tire {
     margin-left: -5rem;
   }
@@ -403,4 +404,4 @@ a {
     padding-left: 5.8rem;
   }
 
-}
+} */
