@@ -176,6 +176,7 @@ const HomePage = () => {
                     }}
                   >
                     <AccordionSummary
+                    
                       expandIcon={<FaAngleDown />}
                       aria-controls="panel1a-content"
                       id="panel1a-header"

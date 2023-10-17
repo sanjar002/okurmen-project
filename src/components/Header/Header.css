@@ -34,7 +34,7 @@
 }
 
 
-.blockList a::after {
+/* .blockList a::after {
   content: "";
   position: absolute;
   background-color: #fa9801;
@@ -43,11 +43,18 @@
   left: 0;
   bottom: 10px;
   transition: 0.3s;
+} */
+
+/* .blockList a:hover:after {
+  width: 100%;
+} */
+
+.blockList a:hover {
+  color: #fa9801;
+  /* color: #104eb3; */
+  transition: 0.3s;
 }
 
-.blockList a:hover:after {
-  width: 100%;
-}
 
 .btn-rus {
   width: 40px;
@@ -67,10 +74,7 @@
     max-width: 1200px;
     width: 100%;
   }
-  nav {
-    display: block;
-  }
-  .blockList a{
+  .blockList {
     display: none;
     font-size: 30px;
     
@@ -87,28 +91,27 @@
 }
 
 .overlay-burger {
-  margin-left: 5rem;
-  background: red;
+  /* width: 100%; */
+  width: 512px;
+      max-height: 1000px;
+      background: red;
+  
 } 
 
 }
 
   .overlay-burger{
-    width: 100vh;
-    height: 100vh;
-    /* background: red; */
     position: absolute;
-   backdrop-filter: blur(50%);
-    z-index: 99999;
+    width: 100%;
+max-width: 512px;
+    max-height: 1000px;
+    /* background: red; */
+    /* position: fixed; */
     top: 0;
+    left: -20rem;
     bottom: 0;
-    color: #fff;
-    left: -29rem;
-    right: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 2rem;
+    /* right: 20rem; */
+    z-index: 9999;
   }
 
 

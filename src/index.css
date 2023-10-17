@@ -17,24 +17,8 @@ a{
     text-decoration: none;
     color: black;
 }
+
 ul{
     list-style: none;
 }
 
-/* @media (max-width: 1200px) and (min-width: 300px) {
-    .header {
-        padding: 5px;
-    }
-    .home {
-        padding: 5px;
-    }
-    .cards {
-        padding: 5px;
-    }
-    .accardion-section {
-        padding: 8px;
-    }
-    .footer {
-        padding: 5px;
-    }
-} */

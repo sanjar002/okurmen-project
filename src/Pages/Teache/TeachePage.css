@@ -1,8 +1,8 @@
 .header__teacher {
   height: 640px;
-  background: url("./image/teachers.png") fixed no-repeat;
+  background: url("./image/teachers.png") no-repeat;
   background-size: cover;
-  background-position-y: 50px;
+  /* background-position-y: 50px; */
 }
 
 .wrapper__teacher h2 {
@@ -187,33 +187,38 @@
 
 /*//////////////////// media ////////////////////*/
 
-@media (max-width: 1200px) and (min-width: 308px) {
+
+@media (max-width: 961px) {
   .header__teacher {
-      width: 1520px;
-    }
-    .wrapper__teacher {
-      margin-left: 20rem;
-    }
-    .teachers-photo {
-      width: 1500px;
-    }
-    .section__mentor {
-      width: 1520px;
-    }
-}
-
-
-
-@media (max-width: 1054px) and (min-width: 308px) {
-  .wrapper__teacher {
-    margin-left: 30rem;
+    height: 640px;
   }
 }
 
-
-@media (max-width: 912px) and (min-width: 308px) {
-  .wrapper__teacher {
-    width: 700px;
-    /* margin-left: 40rem; */
+@media (max-width: 1139px) {
+  .section__mentor {
+    height: 900px;
+  }
+  .mentor__photo  {
+    display: flex;
+    flex-wrap: wrap;
   }
 }
+
+@media (max-width: 644px) {
+  .section__mentor {
+    height: 1300px;
+  }
+}
+
+@media (max-width: 629px) {
+  .section__mentor {
+    height: 1680px;
+  }
+}
+
+/* @media (max-width: 750px) {
+ .mentor__photo {
+  display: flex;
+  flex-wrap: wrap;
+ }
+} */
