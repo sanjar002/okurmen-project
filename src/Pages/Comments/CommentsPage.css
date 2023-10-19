@@ -1,11 +1,11 @@
 .header-comments {
-    background: url('./images/men.png') fixed;
+    background: url('./images/men.png');
     background-repeat: no-repeat;
     background-size: cover;
-    background-size: center;
-    background-blend-mode:multiply ;
+    background-blend-mode: multiply ;
     background-color:#000000c4 ;
     height: 600px;
+    width: 100%;
 }
 
 .wrapper-comments {
@@ -121,14 +121,50 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 
+
 /* //////////////////// media /////////////////////// */
 
 
-@media (max-width: 1200px) and (min-width: 308px) {
-    .header-comments {
-        width: 1519px;
+@media (max-width: 1114px) {
+    .video-div {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
     }
-    .section-text {
-        width: 1450px;
+}
+
+@media (max-width: 547px) {
+    .wrapper-comments h2 {
+        font-size: 27px;
+    }
+    .wrapper-comments p {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 481px) {
+    .wrapper-comments h2 {
+        font-size: 24px;
+    }
+    .wrapper-comments p {
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 432px) {
+    .wrapper-comments h2 {
+        font-size: 21.2px;
+    }
+    .wrapper-comments p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 387px) {
+    .wrapper-comments h2 {
+        font-size: 19.5px;
+    }
+    .wrapper-comments p {
+        font-size: 11px;
     }
 }

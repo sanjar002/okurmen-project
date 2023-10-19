@@ -13,7 +13,7 @@ const AboutPage = () => {
       <header className="header-about">
         <div className="container">
           <div className="about-wrapper">
-            <h2>{t("ОКУРМЭН IT программалоо тилдерин үйрөтөт")}</h2>
+            <h2>{t(`ОКУРМЭН IT программалоо тилдерин үйрөтөт`)}</h2>
             <p>
               {t(
                 "Тажрыйбалуу мугалимдер жана  3 айлык практиканын жардамында сени жумушка  толук даярдайбыз!"
@@ -35,62 +35,39 @@ const AboutPage = () => {
               )}
             </p>
           </div>
-
+        </div>
+      </section>
+        <div className="container">
           <div className="boxes">
             <div className="box">
-              <img src={Mans} alt="" />
+              <img className="images-der" src={Mans} alt="" />
               <p className="p-name">Мансур-Бек Канназар</p>
               <div className="div-kul">{t("Башкы негиздөөчү")}</div>
             </div>
+
             <div className="box">
-              <img src={San} alt="" />
+              <img className="images-der" src={San} alt="" />
               <p className="p-name">Мадумаров Санжар</p>
               <div className="div-kul">Директор</div>
             </div>
+
             <div className="box">
-              <img src={Uluk} alt="" />
+              <img className="images-der" src={Uluk} alt="" />
               <p className="p-name">Улукбек Бакыбек уулу</p>
               <div className="div-kul">{t("Директор орун басары")}</div>
             </div>
+
             <div className="box">
-              <img src={Mun} alt="" />
+              <img className="images-der" src={Mun} alt="" />
               <p className="p-name">Мунарбек Мавлянов</p>
               <div className="div-kul">{t("okurmen_kids Директору")}</div>
             </div>
           </div>
-        </div>
-      </section>
-      {/* second section the end */}
-
-      {/* <section className="carousel">
-        <figure class="icon-cards mt-3">
-          <div class="icon-cards_content">
-            <div class="icon-cards_item d-flex align-items-center justify-content-center">
-              <span class="h1"></span>
-            </div>
-            <div class="icon-cards_item d-flex align-items-center justify-content-center">
-              <span class="h1"></span>
-            </div>
-            <div class="icon-cards_item d-flex align-items-center justify-content-center">
-              <span class="h1"></span>
-            </div>
           </div>
-        </figure>
-      </section> */}
+          
+   
       <div className="container">
-        <div className="video-div">
-          {/* <Video
-          className="video"
-          style={{ width: "100%", borderRadius: "10px" }}
-          // autoPlay loop
-          poster={Okur}
-          onCanPlayThrough={() => {
-            console.log("video play");
-          }}
-        >
-          <source src={introVideo} type="video/webm" />
-        </Video> */}
-
+        <div className="video-div1">
           <iframe
             width="1200"
             height="670"

@@ -1,18 +1,8 @@
 import React, { useState } from "react";
-// import menSan from "../Teache/image/sanjar-mentor.png";
-// import menSyky from "../Teache/image/syimyk-mentor.png";
-// import menMeka from "../Teache/image/meerim-mentor.png";
-import "./CommentsPage.css";
-// import Ellipse from "./images/Ellipse5.png";
-// import User from "./images/user.png";
-
-import Modal from "../Modal/Modal";
 import { useTranslation } from "react-i18next";
+import Modal from "../Modal/Modal";
+import "./CommentsPage.css";
 
-// import { DefaultPlayer as Video } from 'react-html5video';
-// import 'react-html5video/dist/styles.css';
-
-// import Nurdana from "./video/coments.vidoe1.mp4";
 
 const CommentsPage = () => {
   const [showModal, setShowModal] = useState(false);
@@ -47,8 +37,8 @@ const CommentsPage = () => {
           <div className="comments-vidio">
             <div className="video-div">
               <iframe
-                width="400"
-                height="615"
+                width="350"
+                height="500"
                 src="https://www.youtube.com/embed/7-I-RAloUUM"
                 title="YouTube video player"
                 frameborder="0"
@@ -56,8 +46,8 @@ const CommentsPage = () => {
                 allowfullscreen
               ></iframe>
                <iframe
-               width="400"
-               height="615"
+               width="350"
+               height="500"
                 src="https://www.youtube.com/embed/VHDv9L9aZdo"
                 title="YouTube video player"
                 frameborder="0"
@@ -65,8 +55,8 @@ const CommentsPage = () => {
                 allowfullscreen
               ></iframe>
               <iframe
-                width="400"
-                height="615"
+                width="350"
+                height="500"
                 src="https://www.youtube.com/embed/3El0r5EBl_I"
                 title="YouTube video player"
                 frameborder="0"
