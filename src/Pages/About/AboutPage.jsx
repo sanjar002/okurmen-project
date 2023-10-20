@@ -67,7 +67,7 @@ const AboutPage = () => {
           
    
       <div className="container">
-        <div className="video-div1">
+        <div className="video-div">
           <iframe
             width="1200"
             height="670"

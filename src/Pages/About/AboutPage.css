@@ -174,7 +174,7 @@
     transform: translateZ(-35vw) rotateY(-360deg);
   }
 }
-.video-div1 {
+.video-div {
   margin-bottom: 100px;
 }
 
@@ -190,5 +190,12 @@
   }
   .wrapper-text {
     display: table-footer-group;
+  }
+}
+
+
+@media (max-width: 373px) {
+  .about-wrapper h2 {
+    margin-top: -5rem;
   }
 }

@@ -5,14 +5,18 @@ import "./Loader.css";
 
 const Loading = () => {
   return (
-    <div>
+    // <div className="container">
+      <div className="wrapper-loader">
+
+      
       <div className="spinner">
         <img className="loader-images" src={Loader} alt="" />
-      </div>
       <Space size="middle" className="spinn">
-        <Spin size="large" style={{ color: "red" }} />
+        <Spin size="large" />
       </Space>
-    </div>
+      </div>
+      </div>
+    // </div>
   );
 };
 

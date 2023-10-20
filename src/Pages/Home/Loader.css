@@ -1,11 +1,27 @@
+.wrapper-loader {
+  display: flex;
+  justify-content: center;
+  align-items:  center;
+  width: 100%;
+  
+}
+
 .spinner {
-  margin-top: 19rem;
-  margin-left: 42rem;
+  /* margin-top: 19rem;
+  margin-left: 42rem; */
+
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10rem;
+  
 }
 
 .spinn {
   margin-top: 1rem;
-  margin-left: 47rem;
+
+ 
 }
 
 .loader-images {
@@ -14,7 +30,7 @@
 
 /* //////////////////////// media ///////////////////////// */
 
-@media (max-width: 1200px) and (min-width: 308px) {
+/* @media (max-width: 1200px) and (min-width: 308px) {
   .spinner {
     margin-left: 30rem;
   }
@@ -111,4 +127,4 @@
   .spinn {
     margin-left: 10rem;
   }
-}
+} */
