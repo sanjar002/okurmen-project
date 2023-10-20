@@ -107,3 +107,111 @@ a {
   padding-top: 80px;
 }
 
+.maps-foo {
+  width: 400px;
+  height: 380px;
+  margin-top: 2rem;
+  margin-left: 2rem;
+}
+
+/*==============  media  ==================== */
+
+@media (max-width: 1128px) {
+  .tire {
+    margin-left: -2rem;
+  }
+}
+
+@media (max-width: 1036px) {
+  .tire {
+    margin-left: -5rem;
+  }
+}
+
+@media (max-width: 987px)  {
+  .tire {
+    display: none;
+  }
+}
+
+@media (max-width: 861px) {
+  .maps-foo {
+      width: 350px;
+      height: 350px;
+  }
+}
+
+@media (max-width: 814px) and (min-width: 693px) {
+  .obshiiy-footer .right {
+      margin-left: -7rem;
+  }
+}
+
+@media (max-width: 861px) {
+  .maps-foo {
+      width: 300px;
+      height: 370px;
+  }
+}
+
+@media (max-width: 713px) {
+  .footer {
+    height: 1000px;
+  }
+  .footer-logo {
+    margin-left: 10rem;
+  }
+  .maps-foo {
+    width: 500px;
+  }
+  .obshiiy-footer {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+  }
+  .obshiiy-footer .right {
+    margin-left: 5rem;
+    margin-top: -10rem;
+  }
+}
+
+
+@media (max-width: 610px) {
+  .footer-logo {
+    margin-left: 7rem;
+  }
+  .maps-foo {
+    width: 400px;
+  }
+}
+
+@media (max-width: 521px) {
+  .footer-logo {
+    margin-left: 4rem;
+  }
+  .maps-foo {
+    width: 300px;
+  }
+}
+
+@media (max-width: 421px) {
+  .footer-logo {
+    margin-left: 2.8rem;
+  }
+  .maps-foo {
+    width: 260px;
+  }
+  .obshiiy-footer .right {
+    margin-left: 1rem;
+  }
+}
+
+@media (max-width: 359px) {
+  .obshiiy-footer {
+    margin-left: -2.5rem;
+  }
+  .obshiiy-footer .right {
+    font-size: 13px;
+  }
+}

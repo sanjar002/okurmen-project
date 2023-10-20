@@ -20,11 +20,12 @@ const Footer = () => {
               <GoLocation /> {t("Биздин дарек")}
             </h2>
 
-            <div
+            {/* <div
               className="mapFooter"
               id="map"
               style={{ width: "500px", height: "400px" }}
-            ></div>
+            ></div> */}
+              <img className="maps-foo" src="./images/Rectangle.png" alt="" />
           </div>
 
           <div className="tire"></div>
