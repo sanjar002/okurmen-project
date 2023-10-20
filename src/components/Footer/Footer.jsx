@@ -25,7 +25,7 @@ const Footer = () => {
               id="map"
               style={{ width: "500px", height: "400px" }}
             ></div> */}
-              <img className="maps-foo" src="./images/Rectangle.png" alt="" />
+              <img className="maps-foo" src="./images/maps.png" alt="" />
           </div>
 
           <div className="tire"></div>

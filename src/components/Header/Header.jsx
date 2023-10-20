@@ -66,18 +66,18 @@ const Header = () => {
             </div>
             {openBurger && (
               <div className="overlay-burger">
-                <div className="nav-link burger">
-                  <Link to="/">{t("Башкы бет")}</Link>
-                  <Link to="/Course">{t("Курс")}</Link>
-                  <Link to="/Teache">{t("Мугалимдер")}</Link>
-                  <Link to="/about">{t("Окурмен")}</Link>
-                  <Link to="/Comments">{t("Отзыв")}</Link>
-                  <Link to="/Contact">Контакт</Link>
+                <div className="nav-link burger flex-column">
+                  <Link className="white" to="/">{t("Башкы бет")}</Link>
+                  <Link className="white" to="/Course">{t("Курс")}</Link>
+                  <Link className="white" to="/Teache">{t("Мугалимдер")}</Link>
+                  <Link className="white" to="/about">{t("Окурмен")}</Link>
+                  <Link className="white" to="/Comments">{t("Отзыв")}</Link>
+                  <Link className="white" to="/Contact">Контакт</Link>
 
                   {languages.map((btn) => {
                 return (
                   <div className="btn-locales burger">
-                    <Button className="btn-rus" onClick={() => changelang(btn)}>
+                    <Button className="btn-rus btn-media" onClick={() => changelang(btn)}>
                       {btn}
                     </Button>
                   </div>
