@@ -17,8 +17,6 @@ import DJANGO from "./course-image/django.png";
 import "./CoursePage.css";
 import { useTranslation } from "react-i18next";
 
-
-
 const CoursePage = () => {
   const { t } = useTranslation();
   return (
@@ -46,127 +44,49 @@ const CoursePage = () => {
               )}
             </p>
           </div>
+        </div>
+      </section>
 
-          <div className="block-syky">
-            <div className="yellow-block">
-              <div className="course-block"></div>
-              <div className="content-front">
-                <h2 className="yellow-content">Front-End</h2>
-
-                {/* /////////// css ///////// */}
-
-                <div className="html-css">
-                  <img className="html" src={HTML} alt="" />
-                  <img className="css" src={CSS} alt="" />
-                  <p className="html-css-content">
-                    HTML CSS Frontend <br /> разработка
-                  </p>
+      <section className="card-launge">
+        <div className="container">
+          <div className="wrapper-launge">
+            <div className="boxes-cards">
+              <div className="box-cards">
+                <div>
+                  <h3 className="logo-launge">
+                    Front-End — JavaScript
+                    <span className="span-launge">- 9 АЙ</span>
+                  </h3>
                 </div>
-
-                <div className="html-css-eto">
-                  <p className="text-html-css">
-                    {t(
-                      "CSS - бул каскаддык стилдер барагы. Бул тил форматы HTML элементи веб-сайтта кантип көрсөтүлүшү керектигин аныктайт интерфейс бетинде. HTML гипсокартон болсо, CSS болот бул боёк. HTML негизги структура болуп саналат да сиздин сайт, CSS сиздин сайтка баарын берет стили."
-                    )}
-                  </p>
-                </div>
-
-                {/* /////////// js ///////// */}
-
-                <div className="js">
-                  <img className="js-images" src={JS} alt="" />
-                  <p className="js-content">JS Frontend разработка</p>
-                </div>
-
-                <div className="js-eto">
-                  <p className="text-js">
-                    {t(
-                      "JavaScript программалоо тили интерактивдүү веб-сайттарды түзүү үчүн атайын ойлоп табылган."
-                    )}
-                  </p>
-                </div>
-
-                {/* /////////// REACT ///////// */}
-
-                <div className="react">
-                  <img className="images-react" src={REACT} alt="" />
-                  <p className="react-centent">REACT Frontend разработка</p>
-                </div>
-
-                <div className="react-eto">
-                  <p className="text-react">
-                    {t(
-                      "React – бул Javascript программалоо тилинин популярдуу китепканасы, ал веб-колдонуучу интерфейстерин түзүү үчүн колдонулат."
-                    )}
-                  </p>
-
-                  <div className="calendar">
-                    <img className="calen-images" src={Calendar} alt="" />
-                    <p className="srok">{t("мөөнөтү 9 ай")}</p>
+                <div className="boxes-launge">
+                  <div className="box-launge">
+                    <img src="./images/html.png" alt="" />
                   </div>
+                  <div className="box-launge"></div>
+                  <div className="box-launge"></div>
+                  <div className="box-launge"></div>
+                  <div className="box-launge"></div>
+                  <div className="box-launge"></div>
+                  <div className="box-launge"></div>
                 </div>
               </div>
-            </div>
 
-            {/* ////////////////////// BACKEND ///////////////////// */}
-
-            <div className="purple-block">
-              <div className="course--block"> </div>
-              <div className="content-back">
-                <h2 className="content-purple">Back-End</h2>
-
-                <div className="python">
-                  <img className="images-python" src={PYTHON} alt="" />
-                  <p className="puthon-content">PYTHON Backend разработка</p>
-                </div>
-
-                <div className="python-eto">
-                  <p className="text-python">
-                    {t(
-                      "Python динамикалык терүү жана таштанды чогултуу бар. Ал бир нече программалоо парадигмаларын колдойт, анын ичинде (өзгөчө процедуралык), объектиге багытталган жана функционалдык программалоо"
-                    )}
-                  </p>
-                </div>
-
-                {/* /////////// DJANGo ///////// */}
-
-                <div className="django">
-                  <img className="django-images" src={DJANGO} alt="" />
-                  <p className="dgango-content">DJANGO Backend разработка</p>
-                </div>
-
-                <div className="django-eto">
-                  <p className="text-django">
-                    {t(
-                      "Django - бул тез өнүгүүгө жана таза, прагматикалык дизайнга өбөлгө түзгөн жогорку деңгээлдеги Python веб алкагы. Тажрыйбалуу иштеп чыгуучулар тарабынан түзүлгөн, ал веб-иштеп чыгуунун көп түйшүгүн талап кылат, андыктан сиз дөңгөлөктү кайра ойлоп таппай туруп, колдонмоңузду жазууга басым жасай аласыз. Бул бекер жана ачык булак."
-                    )}
-                  </p>
-                </div>
-                <div className="calendar celendar-back">
-                  <img className="calen-images" src={Calendar} alt="" />
-                  <p className="srok">{t("мөөнөтү 9 ай")}</p>
+              <div className="box-cards">
+                <div>
+                  <h3 className="logo-launge">
+                    Back-End — Python
+                    <span className="span-launge">- 9 АЙ</span>
+                  </h3>
                 </div>
               </div>
-            </div>
-          </div>
 
-          <div className="block">
-            <div className="block-flutter">
-              <img className="flutter" src={Flutter} alt="" />{" "}
-              <p className="flutter-text">
-                {t(
-                  "OKURMEN-KIDS бул 9-14 жаштагыларды IT тармагында билим берүүчү бөлүм. Сайттарды жана оюндары жасоо, дизайндар менен иштөөчү 3 айлык курстар!"
-                )}
-              </p>
-            </div>
-
-            <div className="uxui-block">
-              <img className="uxui" src={Uxui} alt="" />
-              <p className="ux-ui_text">
-                {t(
-                  "Отурум UX-дизайн чечимдери көбүнчө эстетикалык артыкчылык жана пикир эмес, изилдөө, маалыматтарды талдоо жана тесттин жыйынтыгы менен аныкталат."
-                )}
-              </p>
+              <div className="box-cards">
+                <div>
+                  <h3 className="logo-launge">
+                    Жаш балдар курсу <span className="span-launge">- 3 АЙ</span>
+                  </h3>
+                </div>
+              </div>
             </div>
           </div>
         </div>
