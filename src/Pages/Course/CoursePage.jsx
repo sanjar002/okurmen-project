@@ -54,6 +54,7 @@ const CoursePage = () => {
             <div className="boxes-cards">
               <div className="box-cards">
                 <div>
+                  <h1>Hllo</h1>
                   <h1>Hello</h1>
                   <h3 className="logo-launge">
                     Front-End — JavaScript
