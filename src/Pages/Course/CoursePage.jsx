@@ -60,8 +60,10 @@ const CoursePage = () => {
                 </div>
                 <div className="boxes-launge">
                   <div className="box-launge">
-                    <img src="./images/html.png" alt="" />
+                    <img className="html-images" src="./course-image/django.png" alt="" />
+                    <p>HTML</p>
                   </div>
+
                   <div className="box-launge"></div>
                   <div className="box-launge"></div>
                   <div className="box-launge"></div>
