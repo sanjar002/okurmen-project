@@ -89,18 +89,27 @@
 } 
 
 .box-launge {
+  padding: 5px;
   width: 100px;
   height: 100px;
   background: hsla(0, 0%, 88%, 0.6);
   border-radius: 3px;
   text-align: center;
 }
-
-/* ===================== cards-box ================= */
-
-/* .html-images {
-  width: 200px;
-} */
+.box-launge img {
+  width: 70px;
+}
+.box-cards button {
+  width: 300px;
+  border-radius: 28px;
+  padding: 10px;
+  margin-top: 1rem;
+  border: none;
+  background: #FA9801;
+  color: white;
+  margin-left: 15rem;
+  cursor: pointer;
+}
 
 
 

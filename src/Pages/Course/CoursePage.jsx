@@ -1,19 +1,20 @@
 import React from "react";
-import Flutter from "./images/kids.png";
-import Uxui from "./images/ux-ui 1.png";
+
 {
   /* Front-End */
 }
-import HTML from "./course-image/html.png";
-import CSS from "./course-image/css.png";
-import JS from "./course-image/js.png";
-import REACT from "./course-image/react.png";
-import Calendar from "./course-image/calendar.png";
+import HtmlIcon from './images/html.ico'
+import CssIcon from './images/5351-css3_102605.png'
+import JsonIcon from'./images/jsIcon.webp'
+import ReactIcon from './images/reactIcon.png'
+import reduxIcon from './images/reduxIcon.png'
+import sassIcon from './images/sassIcon.png'
+import MaterialUI from './images/materialUI.png'
+import Tailwind from './images/tailwind.svg'
 {
   /* Back-End */
 }
-import PYTHON from "./course-image/python.png";
-import DJANGO from "./course-image/django.png";
+
 import "./CoursePage.css";
 import { useTranslation } from "react-i18next";
 
@@ -60,17 +61,40 @@ const CoursePage = () => {
                 </div>
                 <div className="boxes-launge">
                   <div className="box-launge">
-                    <img className="html-images" src="./course-image/django.png" alt="" />
-                    <p>HTML</p>
+                    <img className="html-images" src={HtmlIcon} alt="" />
+                    <h4>HTML</h4>
                   </div>
 
-                  <div className="box-launge"></div>
-                  <div className="box-launge"></div>
-                  <div className="box-launge"></div>
-                  <div className="box-launge"></div>
-                  <div className="box-launge"></div>
-                  <div className="box-launge"></div>
+                  <div className="box-launge">
+                    <img src={CssIcon} alt="" />
+                    <h4>CSS</h4>
+                  </div>
+                  <div className="box-launge">
+                    <img src={JsonIcon} alt="" />
+                    <h4>JavaScript</h4>
+                  </div>
+                  <div className="box-launge">
+                    <img style={{height:'70px', widows:'70px'}} src={ReactIcon} alt="" />
+                    <h4>React</h4>
+                  </div>
+                  <div className="box-launge">
+                    <img style={{width:'70px', height:'70px'}} src={reduxIcon} alt="" />
+                    <h4>Redux</h4>
+                  </div>
+                  <div className="box-launge">
+                    <img style={{width:'70px', height:'70px'}} src={sassIcon} alt="" />
+                    <h4>Sass</h4>
+                  </div>
+                  <div className="box-launge">
+                    <img src={MaterialUI} alt="" />
+                    <h4>Material UI</h4>
+                  </div>
+                  <div className="box-launge">
+                    <img style={{width:'80px', height:'65px'}} src={Tailwind} alt="" />
+                    <h4>Tailwind</h4>
+                  </div>
                 </div>
+                <a href="https://wa.me/702036856"><button>Тоолук Маалымат</button></a>
               </div>
 
               <div className="box-cards">
