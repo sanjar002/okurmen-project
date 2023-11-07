@@ -32,11 +32,6 @@ const CoursePage = () => {
         <div className="container">
           <div className="wrapper-course">
             <h1>{t("Биз менен бат жана сапаттуу билим ал!")}</h1>
-            <p className="wrapper-course-p">
-              {t(
-                "Кесипке ээ болууну каалагандар үчүн программалоо курстары, нөлдөн үйрөнүп, карьераңызда жаңы деңгээлге жетиңиз!"
-              )}
-            </p>
           </div>
         </div>
       </header>
@@ -45,11 +40,6 @@ const CoursePage = () => {
         <div className="container">
           <div className="section-course">
             <h2 className="logo-section">{t("Биздин баардык курстар")}</h2>
-            <p className="course-content">
-              {t(
-                "Сиз иштеп чыгуу менен алектенген жок болсо, негиздери менен баштоо керек: обьектиге-багытталган программалоо негиздери, Синтаксис, код дизайны жана маалымат базалары менен иштоо."
-              )}
-            </p>
           </div>
         </div>
       </section>
