@@ -10,12 +10,16 @@ import ReactIcon from "./images/reactNew.png";
 import reduxIcon from "./images/reduxIcon.png";
 import sassIcon from "./images/sassIcon.png";
 import MaterialUI from "./images/materialUI.png";
-import Tailwind from './images/tailwind.svg'
+import Tailwind from "./images/tailwind.svg";
 
-
-  /* Back-End */
+/* Back-End */
 import Python from "./images/bacend1.png";
-import Django from './images/django2.png'
+import Django from "./images/django2.png";
+import HtmlKids from './images/html.ico'
+import CssKids from './images/5351-css3_102605.png'
+import JsKids from './images/jsIcon.webp'
+import ScractchIcon from './images/scrachtIcon.png'
+import BootStrap from './images/bootstrap.png'
 
 import "./CoursePage.css";
 import { useTranslation } from "react-i18next";
@@ -130,11 +134,11 @@ const CoursePage = () => {
                 </div>
                 <div className="blockBacend">
                   <div className="bacendBlock">
-                    <img style={{width:"200px"}} src={Python} alt="" />
+                    <img style={{ width: "200px" }} src={Python} alt="" />
                     <h5>Python</h5>
                   </div>
                   <div className="bacendBlock">
-                    <img style={{width:"200px"}} src={Django} alt="" />
+                    <img style={{ width: "200px" }} src={Django} alt="" />
                     <h5>Django</h5>
                   </div>
                 </div>
@@ -143,12 +147,37 @@ const CoursePage = () => {
                 </a>
               </div>
 
-              <div className="box-cards">
+              <div className="box-cards1">
                 <div>
                   <h3 className="logo-launge">
                     Жаш балдар курсу <span className="span-launge">- 3 АЙ</span>
                   </h3>
                 </div>
+                <div className="kidsFlexBLock">
+                  <div className="kidsBlock">
+                    <img style={{width:'70px'}} src={HtmlKids} alt="" />
+                    <h5>HTML</h5>
+                  </div>
+                  <div className="kidsBlock">
+                    <img style={{width:'70px'}} src={CssKids} alt="" />
+                    <h5>CSS</h5>
+                  </div>
+                  <div className="kidsBlock">
+                    <img style={{width:'70px'}} src={JsKids} alt="" />
+                    <h5>JavaScript</h5>
+                  </div>
+                  <div className="kidsBlock">
+                    <img style={{width:'70px'}} src={ScractchIcon} alt="" />
+                    <h5>Scratch</h5>
+                  </div>
+                  <div className="kidsBlock">
+                    <img style={{width:'81px'}} src={BootStrap} alt="" />
+                    <h5>BootStrap</h5>
+                  </div>
+                </div>
+                <a href="https://wa.me/702036856">
+                  <button>Тоолук Маалымат</button>
+                </a>
               </div>
             </div>
           </div>
