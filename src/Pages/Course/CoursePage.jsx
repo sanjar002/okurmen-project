@@ -3,17 +3,19 @@ import React from "react";
 {
   /* Front-End */
 }
-import HtmlIcon from './images/html.ico'
-import CssIcon from './images/5351-css3_102605.png'
-import JsonIcon from'./images/jsIcon.webp'
-import ReactIcon from './images/reactIcon.png'
-import reduxIcon from './images/reduxIcon.png'
-import sassIcon from './images/sassIcon.png'
-import MaterialUI from './images/materialUI.png'
+import HtmlIcon from "./images/html.ico";
+import CssIcon from "./images/5351-css3_102605.png";
+import JsonIcon from "./images/jsIcon.webp";
+import ReactIcon from "./images/reactNew.png";
+import reduxIcon from "./images/reduxIcon.png";
+import sassIcon from "./images/sassIcon.png";
+import MaterialUI from "./images/materialUI.png";
 import Tailwind from './images/tailwind.svg'
-{
+
+
   /* Back-End */
-}
+import Python from "./images/bacend1.png";
+import Django from './images/django2.png'
 
 import "./CoursePage.css";
 import { useTranslation } from "react-i18next";
@@ -54,8 +56,6 @@ const CoursePage = () => {
             <div className="boxes-cards">
               <div className="box-cards">
                 <div>
-                  <h1>Hllo</h1>
-                  <h1>Hello</h1>
                   <h3 className="logo-launge">
                     Front-End — JavaScript
                     <span className="span-launge">- 9 АЙ</span>
@@ -64,39 +64,61 @@ const CoursePage = () => {
                 <div className="boxes-launge">
                   <div className="box-launge">
                     <img className="html-images" src={HtmlIcon} alt="" />
-                    <h4>HTML</h4>
+                    <h5>HTML</h5>
                   </div>
 
                   <div className="box-launge">
                     <img src={CssIcon} alt="" />
-                    <h4>CSS</h4>
+                    <h5>CSS</h5>
                   </div>
                   <div className="box-launge">
                     <img src={JsonIcon} alt="" />
-                    <h4>JavaScript</h4>
+                    <h5>JavaScript</h5>
                   </div>
                   <div className="box-launge">
-                    <img style={{height:'70px', widows:'70px'}} src={ReactIcon} alt="" />
-                    <h4>React</h4>
+                    <img
+                      style={{
+                        width: "60px",
+                        height: "55px",
+                        marginTop: "9px",
+                      }}
+                      src={ReactIcon}
+                      alt=""
+                    />
+                    <h5 style={{ marginTop: "5px" }}>React</h5>
                   </div>
                   <div className="box-launge">
-                    <img style={{width:'70px', height:'70px'}} src={reduxIcon} alt="" />
-                    <h4>Redux</h4>
+                    <img
+                      style={{
+                        width: "60px",
+                        height: "55px",
+                        marginTop: "9px",
+                      }}
+                      src={reduxIcon}
+                      alt=""
+                    />
+                    <h5 style={{ marginTop: "5px" }}>Redux</h5>
                   </div>
                   <div className="box-launge">
-                    <img style={{width:'70px', height:'70px'}} src={sassIcon} alt="" />
-                    <h4>Sass</h4>
+                    <img style={{ marginTop: "13px" }} src={sassIcon} alt="" />
+                    <h5 style={{ marginTop: "5px" }}>Sass</h5>
                   </div>
                   <div className="box-launge">
                     <img src={MaterialUI} alt="" />
-                    <h4>Material UI</h4>
+                    <h5>Material UI</h5>
                   </div>
                   <div className="box-launge">
-                    <img style={{width:'80px', height:'65px'}} src={Tailwind} alt="" />
-                    <h4>Tailwind</h4>
+                    <img
+                      style={{ width: "80px", height: "65px" }}
+                      src={Tailwind}
+                      alt=""
+                    />
+                    <h5>Tailwind</h5>
                   </div>
                 </div>
-                <a href="https://wa.me/702036856"><button>Тоолук Маалымат</button></a>
+                <a href="https://wa.me/702036856">
+                  <button>Тоолук Маалымат</button>
+                </a>
               </div>
 
               <div className="box-cards">
@@ -106,6 +128,19 @@ const CoursePage = () => {
                     <span className="span-launge">- 9 АЙ</span>
                   </h3>
                 </div>
+                <div className="blockBacend">
+                  <div className="bacendBlock">
+                    <img style={{width:"200px"}} src={Python} alt="" />
+                    <h5>Python</h5>
+                  </div>
+                  <div className="bacendBlock">
+                    <img style={{width:"200px"}} src={Django} alt="" />
+                    <h5>Django</h5>
+                  </div>
+                </div>
+                <a href="https://wa.me/702036856">
+                  <button>Тоолук Маалымат</button>
+                </a>
               </div>
 
               <div className="box-cards">
