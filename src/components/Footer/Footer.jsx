@@ -4,6 +4,7 @@ import { BsFillTelephoneFill } from "react-icons/bs";
 import { BsInstagram } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
 import { FaTiktok } from "react-icons/fa";
+import { AiOutlineClockCircle } from "react-icons/ai";
 import ImportContactsIcon from "@mui/icons-material/ImportContacts";
 // import Maps from "./images/Rectangle.png";
 import "./Footer.css";
@@ -68,6 +69,15 @@ const Footer = () => {
               <span>
                 Турусбекова 109/1 Максимум <br /> 4 этаж 407 / 411 - кабинет
               </span>
+            </div>
+
+            <div className="clock">
+            <AiOutlineClockCircle 
+              style={{ fontSize: "30px", cursor: "pointer" }}
+            />
+            <span>
+            ДШ - ЖМ 10:00 - 18:00
+</span>
             </div>
           </div>
         </div>

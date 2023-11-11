@@ -16,6 +16,19 @@
   text-align: center; 
   padding-top: 220px;
 }
+
+.wrapper-course p {
+  color: #fff;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  opacity: 0.72;
+  text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.35);
+}
+
 .logo-section {
   text-align: center;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -24,14 +37,13 @@
   color: #FA9801;
 }
 
-
 .section-course {
   padding-top: 60px;
 }
 
 .logo-section {
   font-family: "Montserrat" sans-serif;
-  font-size: 25px;
+  font-size: 30px;
   font-weight: 600;
   padding-bottom: 15px;
 }
@@ -59,7 +71,8 @@
 }
 
 .box-cards {
-  width: 800px;
+  max-width: 800px;
+  width: 100%;
   height: 400px;
   background: hsla(0, 0%, 88%, 0.6);
   background: hsla(0, 0%, 91%, 0.4);
@@ -69,6 +82,7 @@
   cursor: pointer;
   margin-top: 50px;
 }
+
 
 .boxes-launge {
   display: flex;
@@ -86,7 +100,13 @@
   box-shadow: 0 4px 14px rgba(0, 0, 0, 0.7);
   border-radius: 10px;
   text-align: center;
+ 
 }
+
+.back-images {
+  width: 150px;
+}
+
 .box-launge img {
   width: 70px;
 }
@@ -103,12 +123,12 @@
   box-shadow: 0 4px 14px rgba(0, 0, 0, 0.5);
 }
 .bacendBlock {
-  padding: 10px;
+  /* padding: 10px; */
   text-align: center;
   margin-left: 20px;
   margin-top: 1rem;
-  width: 250px;
-  height: 250px;
+  width: 200px;
+  height: 200px;
   background: hsla(0, 0%, 88%, 0.6);
   box-shadow: 0 4px 14px rgba(0, 0, 0, 0.3);
   border-radius: 10px;
@@ -163,3 +183,191 @@
 
 
 
+@media (max-width: 833px) {
+  .boxes-launge {
+    display: flex;
+    flex-wrap: wrap;
+    width: 700px;
+  }
+  .box-cards {
+    width: 700px;
+  }
+  .box-cards1 {
+    width: 700px;
+  }
+  .kidsFlexBLock {
+    display: flex;
+    flex-wrap: wrap;
+    width: 700px;
+  }
+  .btn-course-fron {
+    margin-left: -2.5rem;
+  }
+}
+
+@media (max-width: 722px) {
+  .box-cards-back {
+    height: 370px;
+  }
+  .box-cards {
+    width: 600px;
+  }
+  .box-cards1 {
+    width: 600px;
+    height: 430px;
+  }
+  .boxes-launge {
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+  }
+  .kidsFlexBLock {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 2.5rem;
+    width: 500px;
+  }
+  .box-cards1 {
+    width: 600px;
+  }
+  .btn-course-fron {
+    margin-left: -6rem;
+  }
+}
+
+
+@media (max-width: 620px) {
+  .box-cards {
+    width: 500px;
+  }
+  .box-cards1 {
+    width: 500px;
+  }
+  .box-cards-back {
+    height: 310px;
+  }
+  .box-cards-front {
+    height: 510px;
+  }
+  .boxes-launge {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 3.2rem;
+    width: 400px;
+  }
+  .box-launge {
+    width: 90px;
+  }
+  .bacendBlock {
+    width: 150px;
+    height: 150px;
+  }
+  .blockBacend {
+    margin-left: -27px;
+  }
+  .back-images {
+    width: 100px;
+    margin-top: 10px;
+  }
+  .kidsFlexBLock {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 2.5rem;
+    width: 400px;
+  }
+  .btn-course-fron {
+    margin-left: -9rem;
+  }
+  .btn-course-dopol {
+    margin-top: 11px;
+  }
+}
+
+
+@media (max-width: 520px) {
+  .box-cards {
+    width: 400px;
+  }
+  .box-cards1 {
+    width: 400px;
+    height: 570px;
+  }
+  .boxes-launge {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 3.2rem;
+    width: 300px;
+  }
+  .box-cards-front {
+    height: 640px;
+  }
+  .bacendBlock {
+    width: 120px;
+    height: 140px;
+  }
+  .back-images {
+    width: 90px;
+    margin-top: 11px;
+  }
+  .kidsFlexBLock {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 2.5rem;
+    width: 300px;
+  }
+  .btn-course-fron {
+    margin-left: -12rem;
+  }
+}
+
+
+
+@media (max-width: 420px) {
+  .box-cards {
+    width: 300px;
+  }
+  .box-cards1 {
+    width: 300px;
+    height: 570px;
+  }
+  .btn-course-fron {
+    margin-left: -15rem;
+    width: 10px;
+  }
+  .box-cards button {
+    width: 200px;
+    margin-left: 18rem;
+  }
+  .box-cards-back {
+    height: 280px;
+  }
+  .box-cards1 button {
+    width: 200px;
+    margin-left: 18rem;
+  }
+  .back-images {
+    width: 70px;
+    margin-top: 11px;
+  }
+  .bacendBlock {
+    width: 100px;
+    height: 120px;
+  }
+  
+  .boxes-launge {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 0.01rem;
+    width: 300px;
+  }
+  .kidsFlexBLock {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: -0.1rem;
+    width: 300px;
+  }
+}

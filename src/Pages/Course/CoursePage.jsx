@@ -32,6 +32,7 @@ const CoursePage = () => {
         <div className="container">
           <div className="wrapper-course">
             <h1>{t("Биз менен бат жана сапаттуу билим ал!")}</h1>
+            <p>{t("Кесипке ээ болууну каалагандар үчүн программалоо курстары,  нөлдөн үйрөнүп, карьераңызда жаңы деңгээлге жетиңиз!")}</p>
           </div>
         </div>
       </header>
@@ -40,6 +41,7 @@ const CoursePage = () => {
         <div className="container">
           <div className="section-course">
             <h2 className="logo-section">{t("Биздин баардык курстар")}</h2>
+       
           </div>
         </div>
       </section>
@@ -48,7 +50,9 @@ const CoursePage = () => {
         <div className="container">
           <div className="wrapper-launge">
             <div className="boxes-cards">
-              <div className="box-cards">
+
+              {/* Front-End - cards */}
+              <div className="box-cards box-cards-front">
                 <div>
                   <h3 className="logo-launge">
                     Front-End — JavaScript
@@ -57,7 +61,7 @@ const CoursePage = () => {
                 </div>
                 <div className="boxes-launge">
                   <div className="box-launge">
-                    <img className="html-images" src={HtmlIcon} alt="" />
+                    <img src={HtmlIcon} alt="" />
                     <h5>HTML</h5>
                   </div>
 
@@ -110,33 +114,40 @@ const CoursePage = () => {
                     <h5>Tailwind</h5>
                   </div>
                 </div>
-                <a href="https://wa.me/702036856">
+                
+                <a className="btn-course-fron btn-course-dopol" href="https://wa.me/702036856">
                   <button>Тоолук Маалымат</button>
                 </a>
               </div>
 
-              <div className="box-cards">
+
+                {/* Back-End - cards */}
+              <div className="box-cards box-cards-back">
                 <div>
                   <h3 className="logo-launge">
                     Back-End — Python
-                    <span className="span-launge">- 9 АЙ</span>
+                    <span className="span-launge">- 3 АЙ</span>
                   </h3>
                 </div>
+
                 <div className="blockBacend">
                   <div className="bacendBlock">
-                    <img style={{ width: "200px" }} src={Python} alt="" />
+                    <img className="back-images" src={Python} alt="" />
                     <h5>Python</h5>
                   </div>
                   <div className="bacendBlock">
-                    <img style={{ width: "200px" }} src={Django} alt="" />
+                    <img className="back-images" src={Django} alt="" />
                     <h5>Django</h5>
                   </div>
                 </div>
-                <a href="https://wa.me/702036856">
+
+                <a className="btn-course-fron" href="https://wa.me/702036856">
                   <button>Тоолук Маалымат</button>
                 </a>
               </div>
 
+
+                {/* KIDS - cards */}
               <div className="box-cards1">
                 <div>
                   <h3 className="logo-launge">
@@ -165,30 +176,21 @@ const CoursePage = () => {
                     <h5>BootStrap</h5>
                   </div>
                 </div>
-                <a href="https://wa.me/702036856">
+                <a className="btn-course-fron" href="https://wa.me/702036856">
                   <button>Тоолук Маалымат</button>
                 </a>
               </div>
+
             </div>
           </div>
         </div>
       </section>
 
+          {/* Video - cards */}
       <section className="section-format">
         <div className="container">
           <div className="wrapper-format">
             <div className="video-div">
-              {/* <Video
-          className="video"
-          style={{ width: "1200px", height: "500px", borderRadius: "10px" }}
-          // autoPlay loop
-          // poster={Okur}
-          onCanPlayThrough={() => {
-            console.log("video play");
-          }}
-        >
-          <source src={Atmosfermoishe} type="video/webm" />
-        </Video> */}
               <iframe
                 width="1200"
                 height="600"

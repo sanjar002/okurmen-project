@@ -92,9 +92,20 @@
 .adress {
   display: flex;
   flex-direction: row;
+  padding-bottom: 30px;
 }
 
 .adress span {
+  padding-left: 30px;
+  cursor: pointer;
+}
+
+.clock {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.clock span {
   padding-left: 30px;
   cursor: pointer;
 }
