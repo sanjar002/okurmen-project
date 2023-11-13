@@ -20,6 +20,11 @@
 
 .wrapper-course p {
   color: #fff;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
   text-align: center;
 }
 .wrapper-course p {
