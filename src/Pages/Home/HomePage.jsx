@@ -250,13 +250,11 @@ const HomePage = () => {
                       </Typography>
                     </AccordionDetails>
                   </Accordion>
-                  {/* 1-вый  блок The End */}
                 </div>
 
                 <div className="line"></div>
 
                 <div className="block-acardion-1">
-                  {/* 2-вый  блок Начало */}
                   <Accordion
                     className="ak"
                     style={{
@@ -340,7 +338,6 @@ const HomePage = () => {
                 </div>
               </div>
 
-              {/* 2-вул блок The End */}
             </div>
           </div>
         </div>

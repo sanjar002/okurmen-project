@@ -669,16 +669,14 @@ svg text {
 
 @media (max-width: 513px) {
   .block-acardion-1 {
-   /* width: 450px; */
    width: 100%;
-   background-color: aqua;
+   /* background-color: aqua; */
   }
   .ak {
     margin-left: 20px;
     width: 400px;
   }
-  .accordion {
-    
+  /* .accordion {
     background-color: red;
   }
   .accardion-section {
@@ -686,7 +684,7 @@ svg text {
   }
   .accardion-boxes{
     background-color: blue;
-  }
+  } */
 }
 
 @media (max-width: 601px) {
@@ -787,7 +785,6 @@ svg text {
   }
 }
 
-
 @media (max-width: 395px) {
   .ak {
     width: 300px;
@@ -860,6 +857,3 @@ svg text {
     font-size: 19px;
   }
 }
-
-
-
