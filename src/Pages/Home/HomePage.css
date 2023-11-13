@@ -366,8 +366,7 @@
 
 .accordion{
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   gap: 26px;
   margin-top: 50px;
 }
@@ -377,10 +376,10 @@
 }
 
 .accardion-wrapper{
-  padding-top:60px;
+  padding-top: 60px;
 }
 
-.block-acardion-1{
+.block-acardion-1 {
   display: flex;
   flex-direction: column;
   width: 500px;
@@ -496,6 +495,20 @@ svg text {
   }
 }
 
+
+@media (max-width: 1071px) {
+  .accordion {
+    display: grid;
+    grid-template-columns: 1fr;
+    /* justify-content: center; */
+    place-items: center;
+  }
+  .line {
+    display: none;
+  }
+ 
+}
+
 @media (max-width: 1024px) {
   .home_title h1 {
     display: table-footer-group;
@@ -520,11 +533,13 @@ svg text {
     margin-left: -4rem;
 }
 }
+
 @media (max-width: 976px) {
   .subtitle h2 {
     margin-left: -5rem;
 }
 }
+
 @media (max-width: 960px) {
   .subtitle h2 {
     margin-left: -6rem;
@@ -533,7 +548,6 @@ svg text {
   font-size: 20px;
 }
 }
-
 
 @media (max-width: 944px) {
   .subtitle h2 {
@@ -630,7 +644,6 @@ svg text {
   }
 }
 
-
 @media (max-width: 706px) {
   .home_title h1 {
     font-size: 50px;
@@ -643,7 +656,6 @@ svg text {
   }
 }
 
-
 @media (max-width: 670px) {
   .home {
     height: 630px;
@@ -653,11 +665,19 @@ svg text {
   }
 }
 
-
 @media (max-width: 641px) {
   .home_title h1 {
       font-size: 40px;
   }
+}
+
+@media (max-width: 607px) {
+  .block-acardion-1{
+    /* width: 500px; */
+    background: red;
+  }
+  
+  
 }
 
 @media (max-width: 601px) {
@@ -706,6 +726,14 @@ svg text {
   }
 }
 
+
+
+@media (max-width: 597px) {
+  .accardion-wrapper{
+    width: 100%;
+    background: red;
+  }
+}
 
 @media (max-width: 551px) {
   .accardion-text {

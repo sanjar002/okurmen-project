@@ -157,6 +157,7 @@ const HomePage = () => {
 
       {/* /////////////////////////////   section accardion   /////////////////////////////*/}
 
+
       <section className="accardion-section">
         <div className="container">
           <div className="accardion-wrapper">
@@ -164,7 +165,8 @@ const HomePage = () => {
               {t("Бизге эң көп берилүүчү суроолор")}
             </h2>
 
-            <div className="flex accardion-boxes">
+            <div className="accardion-boxes">
+              
               <div className="accordion">
                 <div className="block-acardion-1">
                   <Accordion
@@ -343,6 +345,7 @@ const HomePage = () => {
           </div>
         </div>
       </section>
+
 
       {/* /////////////////////////////   section master class     /////////////////////////////*/}
 
