@@ -6,7 +6,7 @@ import { MdEmail } from "react-icons/md";
 import { FaTiktok } from "react-icons/fa";
 import { AiOutlineClockCircle } from "react-icons/ai";
 import ImportContactsIcon from "@mui/icons-material/ImportContacts";
-// import Maps from "./images/Rectangle.png";
+import Maps from "./images/maps.png";
 import "./Footer.css";
 import { useTranslation } from "react-i18next";
 
@@ -26,7 +26,8 @@ const Footer = () => {
               id="map"
               style={{ width: "500px", height: "400px" }}
             ></div> */}
-              <img className="maps-foo" src="./images/maps.png" alt="" />
+
+              <img className="maps-foo" src={Maps} alt="" />
           </div>
 
           <div className="tire"></div>
@@ -83,13 +84,6 @@ const Footer = () => {
         </div>
       </div>
 
-      {/* <div class="footer">
-        <div class="footer-text">
-          <p className="syimyk-and-sanjar">
-            &copy; Copyright 2023 All Rights Reserved
-          </p>
-        </div>
-      </div> */}
     </footer>
   );
 };
