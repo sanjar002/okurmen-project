@@ -68,7 +68,7 @@ const Header = () => {
               <AiOutlineMenu onClick={() => setOpenBurger(true)} />
             </div>
             {openBurger && (
-              <div className="overlay-burger">
+              <div className="overlay-burger" onClick={()=>setOpenBurger(false) }>
                 <div className="nav-link burger flex-column">
                   <Link className="white" to="/">{t("Башкы бет")}</Link>
                   <Link className="white" to="/Course">{t("Курс")}</Link>
